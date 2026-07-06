@@ -17,7 +17,7 @@ export const HoldingEntrySchema = z.object({
     .positive('股数必须大于 0'),
   costPrice: z
     .number()
-    .positive('成本价必须大于 0'),
+    .min(0, '成本价不能为负数'),
 });
 
 /** Watchlist 条目：6 位代码字符串 */

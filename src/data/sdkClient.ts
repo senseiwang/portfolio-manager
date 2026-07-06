@@ -6,6 +6,7 @@
  */
 import { StockSDK } from 'stock-sdk';
 import type { RequestClientOptions } from 'stock-sdk';
+import { normalizeSymbol, toTencentSymbol } from 'stock-sdk/symbols';
 import type {
   FullQuote,
   KLine,
@@ -121,7 +122,15 @@ export function createSdkClient(options?: RequestClientOptions): SdkClient {
     },
 
     async getQuotesByCodes(codes: string[]): Promise<FullQuote[]> {
-      return sdk.batch.byCodes(codes) as unknown as Promise<FullQuote[]>;
+      // SDK batch.byCodes 需要带 sh/sz 前缀的腾讯格式代码
+      const normalized = codes.map(c => {
+        try {
+          return toTencentSymbol(normalizeSymbol(c));
+        } catch {
+          return c; // 保底：不认识的格式原样传递
+        }
+      });
+      return sdk.batch.byCodes(normalized) as unknown as Promise<FullQuote[]>;
     },
 
     async getKLine(
@@ -129,10 +138,12 @@ export function createSdkClient(options?: RequestClientOptions): SdkClient {
       from: string,
       to: string,
     ): Promise<KLine[]> {
+      // EastMoney API 要求 YYYYMMDD 格式日期
+      const fmt = (d: string) => d.replace(/-/g, '');
       return sdk.kline.cn(symbol, {
         period: 'daily',
-        startDate: from,
-        endDate: to,
+        startDate: fmt(from),
+        endDate: fmt(to),
       }) as unknown as Promise<KLine[]>;
     },
 
@@ -179,9 +190,10 @@ export function createSdkClient(options?: RequestClientOptions): SdkClient {
     async getDragonTigerDetail(
       date: string,
     ): Promise<DragonTigerDetail[]> {
+      const fmt = (d: string) => d.replace(/-/g, '');
       return sdk.dragonTiger.detail({
-        startDate: date,
-        endDate: date,
+        startDate: fmt(date),
+        endDate: fmt(date),
       }) as unknown as Promise<DragonTigerDetail[]>;
     },
 

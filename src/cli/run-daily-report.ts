@@ -60,16 +60,16 @@ function parseArgs(args: string[]): CliOptions {
   return opts;
 }
 
-// 构造 mock 健康度输入（当真实数据不足时使用合理的默认值）
+// 构造健康度输入（从持仓数据映射到 0-100 评分）
 function buildHealthInput(
   holdings: EnrichedHolding[],
   rebalanceScore: number,
 ): PortfolioHealthInput {
   // 从持仓计算风险指标
   const pnlPercents = holdings.map(h => h.pnlPercent);
-  const maxDrawdown =
+  const maxDrawdownPct =
     pnlPercents.length > 0
-      ? Math.abs(Math.min(...pnlPercents, 0)) / 100 // 转为小数
+      ? Math.abs(Math.min(...pnlPercents, 0))
       : null;
 
   // 平均涨跌幅作为情绪指标
@@ -81,8 +81,14 @@ function buildHealthInput(
   return {
     fundFlowHealth: null,
     technicalHealth: null,
-    portfolioRisk: maxDrawdown !== null ? maxDrawdown * 100 : null,
-    sentiment: avgChange,
+    // 最大回撤百分比 → 风险评分（值越低风险越低，得分越高）
+    portfolioRisk: maxDrawdownPct !== null
+      ? Math.round(Math.max(100 - maxDrawdownPct * 5, 0))
+      : 50,
+    // 平均涨跌幅 → 情绪评分（正值加分、负值减分）
+    sentiment: avgChange !== null
+      ? Math.round(Math.max(0, Math.min(100, 50 + avgChange * 5)))
+      : 50,
     eventSafety: 100,
     strategyOpportunity: rebalanceScore,
   };
