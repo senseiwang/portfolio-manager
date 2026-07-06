@@ -45,6 +45,17 @@ export interface PortfolioHealthInput {
   strategyOpportunity: number | null;
 }
 
+/** 健康度各维度解释 */
+export interface HealthDetail {
+  dimension: string;
+  label: string;
+  score: number;
+  weight: number;
+  interpretation: string;
+  reason: string;
+  suggestion: string;
+}
+
 export interface PortfolioHealthResult {
   fundFlowHealth: number;
   technicalHealth: number;
@@ -54,6 +65,7 @@ export interface PortfolioHealthResult {
   strategyOpportunity: number;
   total: number;
   colorBand: 'green' | 'yellow' | 'orange' | 'red';
+  details: HealthDetail[];
 }
 
 // ===== 工具函数 =====
@@ -159,6 +171,91 @@ function getColorBand(total: number): PortfolioHealthResult['colorBand'] {
   return 'red';
 }
 
+/**
+ * 将分数转为文字评级
+ */
+function scoreLabel(score: number): string {
+  if (score >= 80) return '优秀';
+  if (score >= 60) return '良好';
+  if (score >= 40) return '关注';
+  if (score >= 20) return '预警';
+  return '危险';
+}
+
+/** 构建各维度解释 */
+function buildDetails(scores: Record<string, number>, input: PortfolioHealthInput): HealthDetail[] {
+  return [
+    {
+      dimension: 'fundFlowHealth',
+      label: '资金面',
+      score: scores.fundFlowHealth,
+      weight: HEALTH_WEIGHTS.fundFlowHealth,
+      interpretation: scoreLabel(scores.fundFlowHealth),
+      reason: input.fundFlowHealth === null
+        ? '未获取到持仓资金流数据，暂以中性评分代替'
+        : scores.fundFlowHealth >= 60 ? '主力资金净流入为主' : '主力资金净流出或无明显流入',
+      suggestion: scores.fundFlowHealth < 40 ? '关注主力资金流向变化，考虑减仓资金持续流出的个股' : '维持现有配置',
+    },
+    {
+      dimension: 'technicalHealth',
+      label: '技术面',
+      score: scores.technicalHealth,
+      weight: HEALTH_WEIGHTS.technicalHealth,
+      interpretation: scoreLabel(scores.technicalHealth),
+      reason: input.technicalHealth === null
+        ? '未获取到技术指标数据，暂以中性评分代替'
+        : scores.technicalHealth >= 60 ? 'RSI等技术指标处于健康区间' : '技术指标偏弱',
+      suggestion: scores.technicalHealth < 40 ? '关注超卖反弹机会或考虑止损' : '技术面正常',
+    },
+    {
+      dimension: 'portfolioRisk',
+      label: '组合风险',
+      score: scores.portfolioRisk,
+      weight: HEALTH_WEIGHTS.portfolioRisk,
+      interpretation: scoreLabel(scores.portfolioRisk),
+      reason: scores.portfolioRisk >= 60
+        ? '持仓最大回撤可控，组合分散度良好'
+        : '持仓最大回撤较大或集中度偏高',
+      suggestion: scores.portfolioRisk < 40 ? '考虑降低单只股票仓位或增加ETF占比以分散风险' : '风险水平可接受',
+    },
+    {
+      dimension: 'sentiment',
+      label: '情绪面',
+      score: scores.sentiment,
+      weight: HEALTH_WEIGHTS.sentiment,
+      interpretation: scoreLabel(scores.sentiment),
+      reason: scores.sentiment >= 60
+        ? '持仓整体上涨，市场情绪偏积极'
+        : scores.sentiment >= 40 ? '持仓涨跌互现，情绪中性' : '持仓整体下跌，情绪偏弱',
+      suggestion: scores.sentiment < 40 ? '市场情绪偏弱时谨慎加仓，等待企稳信号' : '情绪面正常',
+    },
+    {
+      dimension: 'eventSafety',
+      label: '事件安全',
+      score: scores.eventSafety,
+      weight: HEALTH_WEIGHTS.eventSafety,
+      interpretation: scoreLabel(scores.eventSafety),
+      reason: scores.eventSafety >= 80
+        ? '近期无重大事件（分红/解禁/财报）发生'
+        : scores.eventSafety >= 40 ? '有事件临近，需关注' : '重大事件即将发生',
+      suggestion: scores.eventSafety < 40 ? '请关注持仓股的分红除权/解禁/财报日期' : '事件安全',
+    },
+    {
+      dimension: 'strategyOpportunity',
+      label: '策略机会',
+      score: scores.strategyOpportunity,
+      weight: HEALTH_WEIGHTS.strategyOpportunity,
+      interpretation: scoreLabel(scores.strategyOpportunity),
+      reason: scores.strategyOpportunity >= 60
+        ? '多只个股触发多个信号，策略机会较多'
+        : scores.strategyOpportunity >= 40 ? '有少量信号触发' : '当前触发信号较少',
+      suggestion: scores.strategyOpportunity < 40
+        ? '市场信号稀少时可减少操作频率，等待明确信号'
+        : '可关注候选池中的信号股',
+    },
+  ];
+}
+
 export function calcPortfolioHealthScore(
   input: PortfolioHealthInput,
 ): PortfolioHealthResult {
@@ -180,9 +277,13 @@ export function calcPortfolioHealthScore(
     scores.strategyOpportunity * HEALTH_WEIGHTS.strategyOpportunity,
   );
 
+  const clampedTotal = clamp(total, 0, 100);
+  const details = buildDetails(scores, input);
+
   return {
     ...scores,
-    total: clamp(total, 0, 100),
-    colorBand: getColorBand(total),
+    total: clampedTotal,
+    colorBand: getColorBand(clampedTotal),
+    details,
   };
 }

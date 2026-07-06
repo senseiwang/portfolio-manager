@@ -52,6 +52,8 @@ export async function runDailyBatch(
     dataDir?: string;
     fromDate?: string;
     toDate?: string;
+    /** 快速模式：限制候选池数量（默认 undefined = 不限制） */
+    maxCandidates?: number;
   },
 ): Promise<CandidatePoolReport> {
   const dataDir = options?.dataDir ?? 'data';
@@ -68,8 +70,14 @@ export async function runDailyBatch(
 
   // 2. 快速过滤
   console.log('[candidatePool] 执行快速过滤...');
-  const stage1 = quickFilter(allQuotes);
+  let stage1 = quickFilter(allQuotes);
   console.log(`[candidatePool] 快速过滤后: ${stage1.length}`);
+
+  // 快速模式：截断候选池以减少 K 线拉取时间
+  if (options?.maxCandidates && stage1.length > options.maxCandidates) {
+    stage1 = stage1.slice(0, options.maxCandidates);
+    console.log(`[candidatePool] 快速模式截断至 ${stage1.length} 只`);
+  }
 
   // === T-6.4: 资金流三级传导 ===
   console.log('[candidatePool] 拉取资金流数据...');

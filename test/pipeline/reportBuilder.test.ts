@@ -51,6 +51,7 @@ function makeHealthScore(overrides?: Partial<PortfolioHealthResult>): PortfolioH
     strategyOpportunity: 50,
     total: 72,
     colorBand: 'yellow',
+    details: [],
     ...overrides,
   };
 }

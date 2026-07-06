@@ -10,6 +10,7 @@ import type { CandidatePoolReport } from './candidatePool';
 import type { RebalanceSuggestion } from './rebalance';
 import type { PortfolioHealthResult } from '../engine/scoring';
 import type { BacktestResult } from '../engine/backtestRunner';
+import { SIGNAL_DESCRIPTIONS } from '../engine/signals';
 
 // ==================== 类型定义 ====================
 
@@ -184,10 +185,12 @@ export function renderPlainTextReport(report: DailyReport): string {
   lines.push(SUB_SEP);
   lines.push(`共 ${report.watchlistOverview.totalStocks} 只`);
   for (const item of report.watchlistOverview.items) {
+    const signalInfo = (item as unknown as { signalLabel?: string }).signalLabel;
+    const sig = signalInfo ? `  [${signalInfo}]` : '';
     lines.push(
       `  ${item.name}(${item.code})  ` +
       `现价: ¥${item.currentPrice.toFixed(2)}  ` +
-      `涨跌: ${formatSigned(item.changePercent, '', '%')}`,
+      `涨跌: ${formatSigned(item.changePercent, '', '%')}${sig}`,
     );
   }
   lines.push('');
@@ -196,13 +199,20 @@ export function renderPlainTextReport(report: DailyReport): string {
   lines.push('【组合健康度】');
   lines.push(SUB_SEP);
   const hs = report.healthScore;
-  lines.push(`总分: ${hs.total}/100  [${getColorLabel(hs.colorBand)}]`);
-  lines.push(`  资金面: ${hs.fundFlowHealth}/100`);
-  lines.push(`  技术面: ${hs.technicalHealth}/100`);
-  lines.push(`  组合风险: ${hs.portfolioRisk}/100`);
-  lines.push(`  情绪面: ${hs.sentiment}/100`);
-  lines.push(`  事件安全: ${hs.eventSafety}/100`);
-  lines.push(`  策略机会: ${hs.strategyOpportunity}/100`);
+  const colorLabel = getColorLabel(hs.colorBand);
+  lines.push(`总分: ${hs.total}/100  [${colorLabel}]`);
+  lines.push('');
+  for (const d of hs.details) {
+    const pct = Math.round(d.weight * 100);
+    const bar = scoreBar(d.score);
+    lines.push(
+      `  ${d.label}: ${d.score.toString().padStart(3)}/100 ${bar}  (权重 ${pct}%)  → ${d.interpretation}`,
+    );
+    lines.push(`     └ ${d.reason}`);
+    if (d.suggestion && d.score < 60) {
+      lines.push(`     └ 建议: ${d.suggestion}`);
+    }
+  }
   lines.push('');
 
   // --- 板块 4: 候选池 ---
@@ -212,8 +222,15 @@ export function renderPlainTextReport(report: DailyReport): string {
   if (report.candidatePool.topSignals.length > 0) {
     lines.push('信号最多的股票:');
     for (const item of report.candidatePool.topSignals) {
-      const signalIds = item.signals.map(s => s.signalId).join(', ');
-      lines.push(`  ${item.name}(${item.code}): [${signalIds}]`);
+      lines.push(`  ${item.name}(${item.code}):`);
+      for (const s of item.signals) {
+        const desc = SIGNAL_DESCRIPTIONS[s.signalId];
+        if (desc) {
+          lines.push(`    ${s.signalId} ${desc.name}  — ${desc.summary}`);
+        } else {
+          lines.push(`    ${s.signalId}`);
+        }
+      }
     }
   }
   lines.push('');
@@ -225,11 +242,15 @@ export function renderPlainTextReport(report: DailyReport): string {
   if (report.rebalance.replaceCandidates.length > 0) {
     lines.push('建议关注替换:');
     for (const c of report.rebalance.replaceCandidates) {
+      const reason = (c as unknown as { reason?: string }).reason;
       lines.push(
         `  ${c.name}(${c.code})  ` +
-        `综合评分: ${c.totalScore}/100  ` +
-        `(资金: ${c.fundFlowScore} 信号: ${c.signalScore})`,
+        `综合: ${c.totalScore}/100  ` +
+        `(资金流: ${c.fundFlowScore}  信号: ${c.signalScore})`,
       );
+      if (reason) {
+        lines.push(`    └ 原因: ${reason}`);
+      }
     }
   } else {
     lines.push('当前无需建议替换');
@@ -243,6 +264,10 @@ export function renderPlainTextReport(report: DailyReport): string {
   if (report.backtestSummary.bestStrategy) {
     const bs = report.backtestSummary.bestStrategy;
     lines.push(`最优策略: ${bs.strategy}  (收益率: ${bs.totalReturn.toFixed(2)}%)`);
+  }
+  if (report.backtestSummary.totalResults === 0) {
+    lines.push('  注：回测依赖历史K线数据与策略参数，可在收盘后通过以下命令单独运行:');
+    lines.push('    npx tsx src/cli/run-backtest.ts --strategy=STG01 --symbol=600519');
   }
   lines.push('');
 
@@ -286,4 +311,11 @@ function getColorLabel(color: string): string {
     case 'red': return '危险';
     default: return color;
   }
+}
+
+/** 分数可视化条（10 格） */
+function scoreBar(score: number): string {
+  const filled = Math.round(score / 10);
+  const empty = 10 - filled;
+  return '█'.repeat(filled) + '░'.repeat(empty);
 }

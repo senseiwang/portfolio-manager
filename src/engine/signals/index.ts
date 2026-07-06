@@ -56,6 +56,18 @@ export const SIGNAL_MAP: Record<string, SignalDetector> = {
   S08: detectMultiResonance as SignalDetector,
 };
 
+/** 信号编号 → 人类可读描述 */
+export const SIGNAL_DESCRIPTIONS: Record<string, { name: string; summary: string }> = {
+  S01: { name: '资金流排名前10%', summary: '个股主力净流入排名市场前10%' },
+  S02: { name: '三级传导共振', summary: '大盘翻红 + 板块资金流入前3 + 个股前3%' },
+  S03: { name: '北向连续增持', summary: '北向资金连续5日增持该股' },
+  S04: { name: 'MACD金叉', summary: 'DIF上穿DEA，短期趋势转强' },
+  S05: { name: 'KDJ超卖底背离', summary: 'K<20且价格新低但K值未同步新低' },
+  S06: { name: '放量突破BOLL中轨', summary: '收盘价站上布林带中轨且成交量放大' },
+  S07: { name: '涨停机构买入回调', summary: '涨停后龙虎榜显示机构买入，回调企稳' },
+  S08: { name: '多维共振', summary: '同时满足资金流/北向/MACD等多个条件' },
+};
+
 export type {
   FundFlowRankInput,
   ConductionInput,

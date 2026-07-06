@@ -143,6 +143,7 @@ function buildMinimalDailyReportInput(
     strategyOpportunity: 50,
     total: 50,
     colorBand: 'yellow',
+    details: [],
   };
 
   // --- 候选池：空 ---

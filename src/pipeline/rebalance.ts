@@ -20,6 +20,8 @@ export interface HoldingScore {
   totalScore: number;
   /** 信号列表 */
   signals: SignalResult[];
+  /** 建议替换原因 */
+  reason?: string;
 }
 
 /** 再平衡建议 */
@@ -60,6 +62,20 @@ export function scoreHolding(
   // 综合评分：资金面 50% + 信号 50%
   const totalScore = Math.round(fundFlowScore * 0.5 + signalScore * 0.5);
 
+  // 生成原因描述
+  const reasons: string[] = [];
+  if (fundFlowPercent === null) {
+    reasons.push('资金流数据不足');
+  } else if (fundFlowScore < 40) {
+    reasons.push('主力资金净流出');
+  }
+  if (signals.length === 0) {
+    reasons.push('无触发信号，活跃度不足');
+  } else if (signals.length < 3) {
+    reasons.push(`仅 ${signals.length} 个信号触发`);
+  }
+  const reason = reasons.length > 0 ? reasons.join('；') : undefined;
+
   return {
     code: holding.code,
     name: holding.name,
@@ -67,6 +83,7 @@ export function scoreHolding(
     signalScore,
     totalScore,
     signals,
+    reason,
   };
 }
 

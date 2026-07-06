@@ -24,11 +24,14 @@ import type { SignalResult } from '../types/signal';
 import { calcPortfolioHealthScore } from '../engine/scoring';
 import type { PortfolioHealthInput, PortfolioHealthResult } from '../engine/scoring';
 import type { BacktestResult } from '../engine/backtestRunner';
+import { SIGNAL_DESCRIPTIONS } from '../engine/signals';
 
 interface CliOptions {
   dataDir: string;
   fromDate: string;
   toDate: string;
+  /** 快速模式：限制候选池数量，默认 500 */
+  maxCandidates: number;
 }
 
 function parseArgs(args: string[]): CliOptions {
@@ -36,6 +39,7 @@ function parseArgs(args: string[]): CliOptions {
     dataDir: 'data',
     fromDate: '',
     toDate: '',
+    maxCandidates: 500,
   };
 
   for (const arg of args) {
@@ -45,6 +49,10 @@ function parseArgs(args: string[]): CliOptions {
       opts.fromDate = arg.slice(7);
     } else if (arg.startsWith('--to=')) {
       opts.toDate = arg.slice(5);
+    } else if (arg === '--full') {
+      opts.maxCandidates = 0; // 0 = 不限制
+    } else if (arg.startsWith('--max-candidates=')) {
+      opts.maxCandidates = parseInt(arg.slice(18), 10) || 500;
     }
   }
 
@@ -122,13 +130,17 @@ async function main(): Promise<void> {
     marketOpen = false;
   }
 
-  // 4. 候选池批处理
+  // 4. 候选池批处理（快速模式默认最多 500 只）
   console.error('[daily-report] 运行候选池批处理...');
-  const candidatePool = await runDailyBatch(client, {
+  const candidatePoolOpts: Parameters<typeof runDailyBatch>[1] = {
     dataDir: opts.dataDir,
     fromDate: opts.fromDate,
     toDate: date,
-  });
+  };
+  if (opts.maxCandidates > 0) {
+    candidatePoolOpts.maxCandidates = opts.maxCandidates;
+  }
+  const candidatePool = await runDailyBatch(client, candidatePoolOpts);
 
   // 5. 构建信号 map（code → signals）
   const signalMap = new Map<string, SignalResult[]>();
@@ -175,12 +187,25 @@ async function main(): Promise<void> {
   // 8. 回测（mock 实现，有行情时才运行）
   const backtestResults: BacktestResult[] = [];
 
+  // 为 Watchlist 股票注入信号标记
+  const watchlistWithSignals = watchlist.map(item => {
+    const signals = signalMap.get(item.code);
+    if (signals && signals.length > 0) {
+      const labels = signals.map(s => {
+        const desc = SIGNAL_DESCRIPTIONS[s.signalId];
+        return desc ? desc.name : s.signalId;
+      });
+      return { ...item, signalLabel: labels.join(' ') };
+    }
+    return item;
+  });
+
   // 9. 构建日报
   console.error('[daily-report] 构建日报...');
   const report: DailyReport = buildDailyReport({
     date,
     holdings,
-    watchlist,
+    watchlist: watchlistWithSignals,
     healthScore,
     candidatePool,
     rebalance,
