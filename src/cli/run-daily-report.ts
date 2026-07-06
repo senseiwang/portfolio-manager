@@ -213,15 +213,18 @@ async function main(): Promise<void> {
     marketStatus: { isTradingDay, marketOpen },
   });
 
-  // 10. 输出
+  // 10. 输出（使用时间戳作为唯一标识，避免同一日期多次运行覆盖）
   const reportsDir = path.resolve(opts.dataDir, 'reports');
   mkdirSync(reportsDir, { recursive: true });
+  const now = new Date();
+  const timeStamp = now.toISOString().slice(11, 19).replace(/:/g, '');
+  const fileTag = `${date}_${timeStamp}`;
 
-  const jsonPath = path.join(reportsDir, `${date}.json`);
+  const jsonPath = path.join(reportsDir, `${fileTag}.json`);
   writeFileSync(jsonPath, JSON.stringify(report, null, 2), 'utf-8');
   console.error(`[daily-report] JSON 报告已写入: ${jsonPath}`);
 
-  const txtPath = path.join(reportsDir, `${date}.txt`);
+  const txtPath = path.join(reportsDir, `${fileTag}.txt`);
   const text = renderPlainTextReport(report);
   writeFileSync(txtPath, text, 'utf-8');
   console.error(`[daily-report] 纯文本报告已写入: ${txtPath}`);

@@ -310,4 +310,73 @@ ESLint 规则 `no-restricted-imports` 禁止 `src/engine/**/*.ts` 导入 `stock-
 | `eslint.config.js` | ESLint 配置 + engine 层隔离规则 |
 | `vitest.config.ts` | Vitest 配置 + 覆盖率配置 |
 | `ecosystem.config.js` | PM2 进程守护配置 |
-| `.github/workflows/ci.yml` | CI 流水线（Node 18/20/22 矩阵） |
+| `.github/workflows/ci.yml` | CI 流水线（Node 20/22/24 矩阵, pnpm 10） |
+
+---
+
+## 12. 关键 Bug 修复记录
+
+### B-1: EastMoney K-line 日期格式（2026-07-06）
+- **现象**：`getKLine()` 返回 0 条，导致候选池过滤后为 0
+- **根因**：EastMoney API 只接受 `YYYYMMDD` 格式日期，但代码传 `YYYY-MM-DD`
+- **修复**：`src/data/sdkClient.ts` 中 `getKLine()` 添加 `fmt(d) => d.replace(/-/g, '')`
+- **影响范围**：同样修复了 `getDragonTigerDetail()` 的日期格式
+
+### B-2: batch.byCodes 需要 sh/sz 前缀（2026-07-06）
+- **现象**：`getQuotesByCodes()` 返回 0 条
+- **根因**：腾讯云行情 API 要求代码带市场前缀（`sh600519`/`sz159915`）
+- **修复**：使用 `normalizeSymbol` + `toTencentSymbol`（来自 `stock-sdk/symbols`）自动转换
+
+### B-3: 健康度评分输入未归一化（2026-07-06）
+- **现象**：组合风险显示 `1.83/100`、情绪面显示 `-2.28/100`
+- **根因**：`buildHealthInput()` 直接传原始值（最大回撤百分比、涨跌幅）而非 0-100 评分
+- **修复**：`src/cli/run-daily-report.ts` 中 `buildHealthInput()` 增加映射逻辑
+
+### B-4: Schema costPrice 不允许 0（2026-07-06）
+- **现象**：停牌/退市股票（领益智造 `002600`）costPrice=0 时报错
+- **修复**：`src/config/schema.ts` 中 `costPrice` 验证从 `positive()` 改为 `min(0)`
+
+### B-5: Watchlist 未加载（2026-07-06）
+- **现象**：报告显示 Watchlist 0 只
+- **根因**：`loadPortfolioConfig()` 读取 `data/watchlist.yaml` 而非 `data/holdings.yaml`
+- **修复**：创建 `data/watchlist.yaml`
+
+---
+
+## 13. CI 配置（2026-07-06）
+
+```yaml
+# .github/workflows/ci.yml
+# 矩阵: Node 20, 22, 24 | pnpm 10
+# steps: typecheck → lint → test --coverage → upload artifact
+# 注意: pnpm/action-setup@v4 必须指定 version
+```
+
+### 已知 CI 问题
+- `pnpm/action-setup@v4` 必须带 `version: 10` 参数
+- Node 20 已在 GitHub Actions 上弃用，使用 22/24
+- `package.json` 中 `packageManager` 字段已设置为 `pnpm@10.34.4`
+
+---
+
+## 14. 报告质量改进记录
+
+### 快速模式（2026-07-06）
+- `src/cli/run-daily-report.ts` 支持 `--full`/`--max-candidates=N` 参数
+- 默认 500 只候选，运行约 30 秒（全量 2853 只需 2-3 分钟）
+- `src/pipeline/candidatePool.ts` 新增 `maxCandidates` 选项
+
+### 信号可读性（2026-07-06）
+- `src/engine/signals/index.ts` 新增 `SIGNAL_DESCRIPTIONS`（信号编号→名称+摘要）
+- 报告中信号显示 `S01 资金流排名前10% — 个股主力净流入排名市场前10%` 而非 `[S01]`
+
+### 健康度解释（2026-07-06）
+- `src/engine/scoring.ts` 新增 `HealthDetail` 接口：label/reason/interpretation/suggestion
+- 每个维度显示：评分 + 可视化条 + 文字评级 + 原因 + 建议
+
+### 再平衡原因（2026-07-06）
+- `src/pipeline/rebalance.ts` 新增 `reason` 字段
+- 原因示例：`无触发信号，活跃度不足` / `主力资金净流出`
+
+### 报告文件命名（2026-07-06）
+- 改为 `{date}_{HHMMSS}.json` 格式，避免同一天多次运行覆盖

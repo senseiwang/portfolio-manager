@@ -168,7 +168,9 @@ export async function runDailyBatch(
     mkdirSync(dataPath, { recursive: true });
   }
 
-  const filePath = path.join(dataPath, `candidate-pool-${toDate}.json`);
+  const now = new Date();
+  const timeStamp = now.toISOString().slice(11, 19).replace(/:/g, '');
+  const filePath = path.join(dataPath, `candidate-pool-${toDate}_${timeStamp}.json`);
   writeFileSync(filePath, JSON.stringify(report, null, 2), 'utf-8');
   console.log(`[candidatePool] 报告已写入: ${filePath}`);
 
