@@ -1,0 +1,32 @@
+[
+  {
+    "marketId": "1",
+    "name": "贵州茅台",
+    "code": "600519",
+    "price": 1194.45,
+    "change": -8.55,
+    "changePercent": -0.71,
+    "volume": 34268,
+    "amount": 409927,
+    "marketCap": 14931.6,
+    "marketType": "GP-A",
+    "market": "CN",
+    "assetType": "stock",
+    "source": "tencent"
+  },
+  {
+    "marketId": "1",
+    "name": "上证指数",
+    "code": "000001",
+    "price": 4043.64,
+    "change": 14.74,
+    "changePercent": 0.37,
+    "volume": 602009738,
+    "amount": 146556310,
+    "marketCap": 677257.54,
+    "marketType": "ZS",
+    "market": "CN",
+    "assetType": "stock",
+    "source": "tencent"
+  }
+]

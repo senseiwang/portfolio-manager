@@ -1,0 +1,251 @@
+[
+  {
+    "marketId": "1",
+    "name": "贵州茅台",
+    "code": "600519",
+    "price": 1194.45,
+    "prevClose": 1203,
+    "open": 1205.24,
+    "volume": 34268,
+    "outerVolume": 14380,
+    "innerVolume": 19887,
+    "bid": [
+      {
+        "price": 1194.45,
+        "volume": 0
+      },
+      {
+        "price": 1194.44,
+        "volume": 6
+      },
+      {
+        "price": 1194.41,
+        "volume": 1
+      },
+      {
+        "price": 1194.32,
+        "volume": 1
+      },
+      {
+        "price": 1194.31,
+        "volume": 2
+      }
+    ],
+    "ask": [
+      {
+        "price": 1194.47,
+        "volume": 5
+      },
+      {
+        "price": 1194.49,
+        "volume": 1
+      },
+      {
+        "price": 1194.5,
+        "volume": 3
+      },
+      {
+        "price": 1194.59,
+        "volume": 1
+      },
+      {
+        "price": 1194.6,
+        "volume": 2
+      }
+    ],
+    "time": "20260703161454",
+    "timestamp": 1783066494000,
+    "tz": "Asia/Shanghai",
+    "change": -8.55,
+    "changePercent": -0.71,
+    "high": 1210.14,
+    "low": 1185,
+    "volume2": 34268,
+    "amount": 409927,
+    "turnoverRate": 0.27,
+    "pe": 18.05,
+    "amplitude": 2.09,
+    "circulatingMarketCap": 14931.6,
+    "totalMarketCap": 14931.6,
+    "pb": 6.41,
+    "limitUp": 1323.3,
+    "limitDown": 1082.7,
+    "volumeRatio": 0.69,
+    "avgPrice": 1196.25,
+    "peStatic": 13.7,
+    "peDynamic": 18.14,
+    "high52w": 1539.98,
+    "low52w": 1151.01,
+    "circulatingShares": 1250081601,
+    "totalShares": 1250081601,
+    "market": "CN",
+    "assetType": "stock",
+    "source": "tencent"
+  },
+  {
+    "marketId": "51",
+    "name": "平安银行",
+    "code": "000001",
+    "price": 10.29,
+    "prevClose": 10.28,
+    "open": 10.29,
+    "volume": 863327,
+    "outerVolume": 403241,
+    "innerVolume": 460086,
+    "bid": [
+      {
+        "price": 10.29,
+        "volume": 1518
+      },
+      {
+        "price": 10.28,
+        "volume": 1636
+      },
+      {
+        "price": 10.27,
+        "volume": 395
+      },
+      {
+        "price": 10.26,
+        "volume": 525
+      },
+      {
+        "price": 10.25,
+        "volume": 476
+      }
+    ],
+    "ask": [
+      {
+        "price": 10.3,
+        "volume": 489
+      },
+      {
+        "price": 10.31,
+        "volume": 2231
+      },
+      {
+        "price": 10.32,
+        "volume": 5606
+      },
+      {
+        "price": 10.33,
+        "volume": 1800
+      },
+      {
+        "price": 10.34,
+        "volume": 2574
+      }
+    ],
+    "time": "20260703161436",
+    "timestamp": 1783066476000,
+    "tz": "Asia/Shanghai",
+    "change": 0.01,
+    "changePercent": 0.1,
+    "high": 10.4,
+    "low": 10.18,
+    "volume2": 863327,
+    "amount": 88879,
+    "turnoverRate": 0.44,
+    "pe": 4.64,
+    "amplitude": 2.14,
+    "circulatingMarketCap": 1996.84,
+    "totalMarketCap": 1996.87,
+    "pb": 0.44,
+    "limitUp": 11.31,
+    "limitDown": 9.25,
+    "volumeRatio": 0.8,
+    "avgPrice": 10.29,
+    "peStatic": 3.44,
+    "peDynamic": 4.68,
+    "high52w": 12.73,
+    "low52w": 9.99,
+    "circulatingShares": 19405600653,
+    "totalShares": 19405918198,
+    "market": "CN",
+    "assetType": "stock",
+    "source": "tencent"
+  },
+  {
+    "marketId": "51",
+    "name": "美的集团",
+    "code": "000333",
+    "price": 77.96,
+    "prevClose": 77.01,
+    "open": 77.5,
+    "volume": 557803,
+    "outerVolume": 265119,
+    "innerVolume": 292684,
+    "bid": [
+      {
+        "price": 77.96,
+        "volume": 3
+      },
+      {
+        "price": 77.95,
+        "volume": 138
+      },
+      {
+        "price": 77.94,
+        "volume": 1041
+      },
+      {
+        "price": 77.93,
+        "volume": 561
+      },
+      {
+        "price": 77.92,
+        "volume": 437
+      }
+    ],
+    "ask": [
+      {
+        "price": 77.97,
+        "volume": 36
+      },
+      {
+        "price": 77.98,
+        "volume": 228
+      },
+      {
+        "price": 77.99,
+        "volume": 41
+      },
+      {
+        "price": 78,
+        "volume": 213
+      },
+      {
+        "price": 78.01,
+        "volume": 20
+      }
+    ],
+    "time": "20260703161424",
+    "timestamp": 1783066464000,
+    "tz": "Asia/Shanghai",
+    "change": 0.95,
+    "changePercent": 1.23,
+    "high": 79.9,
+    "low": 77.31,
+    "volume2": 557803,
+    "amount": 437662,
+    "turnoverRate": 0.81,
+    "pe": 13.43,
+    "amplitude": 3.36,
+    "circulatingMarketCap": 5349.8,
+    "totalMarketCap": 5935.44,
+    "pb": 2.91,
+    "limitUp": 84.71,
+    "limitDown": 69.31,
+    "volumeRatio": 0.98,
+    "avgPrice": 78.46,
+    "peStatic": 11.71,
+    "peDynamic": 13.51,
+    "high52w": 82.18,
+    "low52w": 65.67,
+    "circulatingShares": 6862243458,
+    "totalShares": 7613438907,
+    "market": "CN",
+    "assetType": "stock",
+    "source": "tencent"
+  }
+]

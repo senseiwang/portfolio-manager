@@ -1,0 +1,515 @@
+{
+  "code": "000001",
+  "name": "华夏成长混合",
+  "sourceRate": 1.5,
+  "rate": 0.15,
+  "minSubscription": 10,
+  "holdings": [
+    {
+      "marketId": "0",
+      "code": "300308"
+    },
+    {
+      "marketId": "1",
+      "code": "688012"
+    },
+    {
+      "marketId": "1",
+      "code": "688347"
+    },
+    {
+      "marketId": "0",
+      "code": "002371"
+    },
+    {
+      "marketId": "1",
+      "code": "688019"
+    },
+    {
+      "marketId": "1",
+      "code": "688041"
+    },
+    {
+      "marketId": "1",
+      "code": "688120"
+    },
+    {
+      "marketId": "1",
+      "code": "688256"
+    },
+    {
+      "marketId": "1",
+      "code": "688072"
+    },
+    {
+      "marketId": "1",
+      "code": "688361"
+    }
+  ],
+  "bondHoldings": [
+    {
+      "marketId": "1",
+      "code": "019827"
+    },
+    {
+      "marketId": "0",
+      "code": "524462"
+    },
+    {
+      "marketId": "1",
+      "code": "019785"
+    }
+  ],
+  "assetAllocation": [
+    {
+      "date": "2025-06-30",
+      "timestamp": 1751212800000,
+      "stockRatio": 78.32,
+      "bondRatio": 20.71,
+      "cashRatio": 1.63,
+      "otherRatio": 0,
+      "netAsset": 25.9952
+    },
+    {
+      "date": "2025-09-30",
+      "timestamp": 1759161600000,
+      "stockRatio": 75.44,
+      "bondRatio": 20.42,
+      "cashRatio": 4.92,
+      "otherRatio": 0,
+      "netAsset": 31.5839
+    },
+    {
+      "date": "2025-12-31",
+      "timestamp": 1767110400000,
+      "stockRatio": 79.42,
+      "bondRatio": 20.58,
+      "cashRatio": 1.24,
+      "otherRatio": 0,
+      "netAsset": 29.3677
+    },
+    {
+      "date": "2026-03-31",
+      "timestamp": 1774886400000,
+      "stockRatio": 72.51,
+      "bondRatio": 20.63,
+      "cashRatio": 2.39,
+      "otherRatio": 0,
+      "netAsset": 26.443
+    }
+  ],
+  "positions": [
+    {
+      "date": "2026-06-08",
+      "timestamp": 1780848000000,
+      "position": 75.35
+    },
+    {
+      "date": "2026-06-09",
+      "timestamp": 1780934400000,
+      "position": 75.35
+    },
+    {
+      "date": "2026-06-10",
+      "timestamp": 1781020800000,
+      "position": 75.35
+    },
+    {
+      "date": "2026-06-11",
+      "timestamp": 1781107200000,
+      "position": 80.08
+    },
+    {
+      "date": "2026-06-12",
+      "timestamp": 1781193600000,
+      "position": 80.08
+    },
+    {
+      "date": "2026-06-15",
+      "timestamp": 1781452800000,
+      "position": 80.08
+    },
+    {
+      "date": "2026-06-16",
+      "timestamp": 1781539200000,
+      "position": 80.08
+    },
+    {
+      "date": "2026-06-17",
+      "timestamp": 1781625600000,
+      "position": 80.08
+    },
+    {
+      "date": "2026-06-18",
+      "timestamp": 1781712000000,
+      "position": 84.52
+    },
+    {
+      "date": "2026-06-22",
+      "timestamp": 1782057600000,
+      "position": 84.52
+    },
+    {
+      "date": "2026-06-23",
+      "timestamp": 1782144000000,
+      "position": 84.52
+    },
+    {
+      "date": "2026-06-24",
+      "timestamp": 1782230400000,
+      "position": 84.52
+    },
+    {
+      "date": "2026-06-25",
+      "timestamp": 1782316800000,
+      "position": 84.52
+    },
+    {
+      "date": "2026-06-26",
+      "timestamp": 1782403200000,
+      "position": 84.52
+    },
+    {
+      "date": "2026-06-29",
+      "timestamp": 1782662400000,
+      "position": 78.33
+    },
+    {
+      "date": "2026-06-30",
+      "timestamp": 1782748800000,
+      "position": 79.85
+    },
+    {
+      "date": "2026-07-01",
+      "timestamp": 1782835200000,
+      "position": 79.85
+    },
+    {
+      "date": "2026-07-02",
+      "timestamp": 1782921600000,
+      "position": 79.85
+    }
+  ],
+  "managers": [
+    {
+      "id": "30040527",
+      "name": "郑晓辉",
+      "avatarUrl": "https://pdf.dfcfw.com/pdf/H8_30040527_1.JPG",
+      "star": 5,
+      "workTime": "14年又208天",
+      "fundSize": "78.91亿(4只基金)",
+      "power": {
+        "overall": 86.88,
+        "categories": [
+          "经验值",
+          "收益率",
+          "抗风险",
+          "稳定性",
+          "择时能力"
+        ],
+        "scores": [
+          99.5,
+          93.4,
+          72.2,
+          64.5,
+          95.3
+        ],
+        "descriptions": [
+          "反映基金经理从业年限和管理基金的经验",
+          "根据基金经理投资的阶段收益评分，反映<br>基金经理投资的盈利能力",
+          "反映基金经理投资的回撤控制能力",
+          "反映基金经理投资收益的波动",
+          "反映基金经理根据对市场的判断，通过<br>调整仓位及配置而跑赢业绩的基准能力"
+        ]
+      }
+    },
+    {
+      "id": "30786034",
+      "name": "刘睿聪",
+      "avatarUrl": "https://pdf.dfcfw.com/pdf/H8_30786034_1.JPG",
+      "star": 4,
+      "workTime": "3年又190天",
+      "fundSize": "26.61亿(3只基金)",
+      "power": {
+        "overall": 71.93,
+        "categories": [
+          "经验值",
+          "收益率",
+          "抗风险",
+          "稳定性",
+          "择时能力"
+        ],
+        "scores": [
+          67.9,
+          67.5,
+          80.5,
+          81.9,
+          68.9
+        ],
+        "descriptions": [
+          "反映基金经理从业年限和管理基金的经验",
+          "根据基金经理投资的阶段收益评分，反映<br>基金经理投资的盈利能力",
+          "反映基金经理投资的回撤控制能力",
+          "反映基金经理投资收益的波动",
+          "反映基金经理根据对市场的判断，通过<br>调整仓位及配置而跑赢业绩的基准能力"
+        ]
+      }
+    }
+  ],
+  "performance": {
+    "overall": 79,
+    "categories": [
+      "选证能力",
+      "收益率",
+      "抗风险",
+      "稳定性",
+      "择时能力"
+    ],
+    "scores": [
+      75,
+      85,
+      70,
+      70,
+      85
+    ],
+    "descriptions": [
+      "反映基金挑选证券而实现风险<br>调整后获得超额收益的能力",
+      "根据阶段收益评分，反映基金的盈利能力",
+      "反映基金投资收益的回撤情况",
+      "反映基金投资收益的波动性",
+      "反映基金根据对市场走势的判断，<br>通过调整仓位及配置而跑赢基金业<br>绩基准的能力"
+    ]
+  },
+  "holderStructure": [
+    {
+      "date": "2024-06-30",
+      "timestamp": 1719676800000,
+      "institutionRatio": 0.48,
+      "individualRatio": 99.52,
+      "internalRatio": 0
+    },
+    {
+      "date": "2024-12-31",
+      "timestamp": 1735574400000,
+      "institutionRatio": 0.55,
+      "individualRatio": 99.45,
+      "internalRatio": 0
+    },
+    {
+      "date": "2025-06-30",
+      "timestamp": 1751212800000,
+      "institutionRatio": 0.55,
+      "individualRatio": 99.45,
+      "internalRatio": 0
+    },
+    {
+      "date": "2025-12-31",
+      "timestamp": 1767110400000,
+      "institutionRatio": 0.5,
+      "individualRatio": 99.5,
+      "internalRatio": 0
+    }
+  ],
+  "scaleChanges": [
+    {
+      "date": "2025-03-31",
+      "scale": 26.04,
+      "mom": "3.67%"
+    },
+    {
+      "date": "2025-06-30",
+      "scale": 26,
+      "mom": "-0.16%"
+    },
+    {
+      "date": "2025-09-30",
+      "scale": 31.58,
+      "mom": "21.50%"
+    },
+    {
+      "date": "2025-12-31",
+      "scale": 29.37,
+      "mom": "-7.02%"
+    },
+    {
+      "date": "2026-03-31",
+      "scale": 26.44,
+      "mom": "-9.96%"
+    }
+  ],
+  "buySedemption": [
+    {
+      "date": "2025-06-30",
+      "timestamp": 1751212800000,
+      "buy": 0.5,
+      "sell": 0.8,
+      "total": 29.93
+    },
+    {
+      "date": "2025-09-30",
+      "timestamp": 1759161600000,
+      "buy": 1.42,
+      "sell": 3.32,
+      "total": 28.03
+    },
+    {
+      "date": "2025-12-31",
+      "timestamp": 1767110400000,
+      "buy": 0.86,
+      "sell": 1.77,
+      "total": 27.12
+    },
+    {
+      "date": "2026-03-31",
+      "timestamp": 1774886400000,
+      "buy": 1.25,
+      "sell": 2.44,
+      "total": 25.92
+    }
+  ],
+  "stageReturns": {
+    "oneMonth": 11.23,
+    "threeMonth": 43.44,
+    "sixMonth": 35.36,
+    "oneYear": 72.83
+  },
+  "sameType": {
+    "groups": [
+      [
+        {
+          "code": "001480",
+          "name": "财通成长优选混合A",
+          "value": 401.03
+        },
+        {
+          "code": "021528",
+          "name": "财通成长优选混合C",
+          "value": 399.15
+        },
+        {
+          "code": "720001",
+          "name": "财通价值动量混合A",
+          "value": 359.33
+        },
+        {
+          "code": "021523",
+          "name": "财通价值动量混合C",
+          "value": 357.23
+        },
+        {
+          "code": "001753",
+          "name": "红土创新新兴产业混合",
+          "value": 319.29
+        }
+      ],
+      [
+        {
+          "code": "001198",
+          "name": "东方惠新灵活配置混合",
+          "value": 454.43
+        },
+        {
+          "code": "001753",
+          "name": "红土创新新兴产业混合",
+          "value": 450.55
+        },
+        {
+          "code": "001480",
+          "name": "财通成长优选混合A",
+          "value": 443.35
+        },
+        {
+          "code": "021528",
+          "name": "财通成长优选混合C",
+          "value": 438.92
+        },
+        {
+          "code": "001438",
+          "name": "易方达瑞享混合E",
+          "value": 427.54
+        }
+      ],
+      [
+        {
+          "code": "001480",
+          "name": "财通成长优选混合A",
+          "value": 425.06
+        },
+        {
+          "code": "001194",
+          "name": "景顺长城稳健回报混合",
+          "value": 405.38
+        },
+        {
+          "code": "001412",
+          "name": "德邦鑫星价值灵活配置",
+          "value": 402.86
+        },
+        {
+          "code": "001407",
+          "name": "景顺长城稳健回报混合",
+          "value": 401.84
+        },
+        {
+          "code": "002112",
+          "name": "德邦鑫星价值灵活配置",
+          "value": 401.38
+        }
+      ],
+      [
+        {
+          "code": "001438",
+          "name": "易方达瑞享混合E",
+          "value": 454.02
+        },
+        {
+          "code": "000390",
+          "name": "华商优势行业混合A",
+          "value": 442.87
+        },
+        {
+          "code": "001194",
+          "name": "景顺长城稳健回报混合",
+          "value": 429.34
+        },
+        {
+          "code": "001407",
+          "name": "景顺长城稳健回报混合",
+          "value": 423.2
+        },
+        {
+          "code": "001480",
+          "name": "财通成长优选混合A",
+          "value": 375.89
+        }
+      ],
+      [
+        {
+          "code": "001198",
+          "name": "东方惠新灵活配置混合",
+          "value": 138.11
+        },
+        {
+          "code": "580009",
+          "name": "东吴多策略混合A",
+          "value": 131.73
+        },
+        {
+          "code": "001480",
+          "name": "财通成长优选混合A",
+          "value": 131.36
+        },
+        {
+          "code": "011949",
+          "name": "东吴多策略混合C",
+          "value": 131.28
+        },
+        {
+          "code": "021528",
+          "name": "财通成长优选混合C",
+          "value": 130.9
+        }
+      ]
+    ]
+  }
+}

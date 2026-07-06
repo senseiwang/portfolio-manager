@@ -1,0 +1,907 @@
+{
+  "items": [
+    {
+      "code": "530880",
+      "name": "红利国企ETF银河",
+      "equityRecordDate": "2026-07-08",
+      "exDividendDate": "2026-07-09",
+      "dividendPerShare": 0.0025,
+      "payDate": "2026-07-14",
+      "dividendType": null
+    },
+    {
+      "code": "563660",
+      "name": "A500ETF银河",
+      "equityRecordDate": "2026-07-08",
+      "exDividendDate": "2026-07-09",
+      "dividendPerShare": 0.0069,
+      "payDate": "2026-07-14",
+      "dividendType": null
+    },
+    {
+      "code": "000064",
+      "name": "大摩18个月定开债C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0072,
+      "payDate": "2026-07-09",
+      "dividendType": "6"
+    },
+    {
+      "code": "016745",
+      "name": "大摩18个月定开债A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0098,
+      "payDate": "2026-07-09",
+      "dividendType": "6"
+    },
+    {
+      "code": "016363",
+      "name": "招商中证红利ETF联接E",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.003,
+      "payDate": "2026-07-08",
+      "dividendType": null
+    },
+    {
+      "code": "012644",
+      "name": "招商中证红利ETF联接C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.003,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "012643",
+      "name": "招商中证红利ETF联接A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.003,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "022707",
+      "name": "银河中证A500指数增强C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.045,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "022706",
+      "name": "银河中证A500指数增强A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.046,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "025723",
+      "name": "银河中证800指数增强A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0215,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "025724",
+      "name": "银河中证800指数增强C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0202,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "000205",
+      "name": "易方达投资级信用债债券A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.008,
+      "payDate": "2026-07-08",
+      "dividendType": "4"
+    },
+    {
+      "code": "000206",
+      "name": "易方达投资级信用债债券C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.008,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "012795",
+      "name": "易方达裕兴3个月定开债",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0075,
+      "payDate": "2026-07-08",
+      "dividendType": "6"
+    },
+    {
+      "code": "020083",
+      "name": "易方达投资级信用债债券D",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.007,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "000833",
+      "name": "易方达富华纯债C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0057,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "005099",
+      "name": "易方达富华纯债A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0062,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "013497",
+      "name": "易方达裕华利率债3个月定开债",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0048,
+      "payDate": "2026-07-08",
+      "dividendType": "6"
+    },
+    {
+      "code": "009615",
+      "name": "南方中债0-2年国开行债券指数A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.028,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "009616",
+      "name": "南方中债0-2年国开行债券指数C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.045,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "014458",
+      "name": "南方中债0-2年国开行债券指数E",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.05,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "022783",
+      "name": "南方中债0-2年国开行债券指数D",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.043,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "022633",
+      "name": "南方中债0-2年国开行债券指数I",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.03,
+      "payDate": "2026-07-08",
+      "dividendType": null
+    },
+    {
+      "code": "000634",
+      "name": "富国天盛灵活配置基金",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.031,
+      "payDate": "2026-07-09",
+      "dividendType": "1"
+    },
+    {
+      "code": "021735",
+      "name": "景顺长城沪港深红利成长低波指数E",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0124,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "007760",
+      "name": "景顺长城沪港深红利成长低波指数C",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.0122,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "007751",
+      "name": "景顺长城沪港深红利成长低波指数A",
+      "equityRecordDate": "2026-07-07",
+      "exDividendDate": "2026-07-07",
+      "dividendPerShare": 0.013,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "159331",
+      "name": "红利港股ETF国泰",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.003,
+      "payDate": "2026-07-08",
+      "dividendType": null
+    },
+    {
+      "code": "519161",
+      "name": "新华安享惠金定期债券C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.054,
+      "payDate": "2026-07-08",
+      "dividendType": "6"
+    },
+    {
+      "code": "519160",
+      "name": "新华安享惠金定期债券A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.0696,
+      "payDate": "2026-07-08",
+      "dividendType": "6"
+    },
+    {
+      "code": "021467",
+      "name": "新华安享惠金定期债券E",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.0903,
+      "payDate": "2026-07-08",
+      "dividendType": "6"
+    },
+    {
+      "code": "009293",
+      "name": "易方达年年恒春定开债C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.0045,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "009292",
+      "name": "易方达年年恒春定开债A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.007,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "010471",
+      "name": "易方达年年恒实纯债一年定开A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.007,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "010472",
+      "name": "易方达年年恒实纯债一年定开C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.0062,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "007525",
+      "name": "易方达年年恒夏一年定开债A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.0068,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "007526",
+      "name": "易方达年年恒夏一年定开债C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.006,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "007997",
+      "name": "易方达年年恒秋一年定开债A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.0072,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "007998",
+      "name": "易方达年年恒秋一年定开债C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.0065,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "000112",
+      "name": "易方达纯债1年定开债C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.004,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "000111",
+      "name": "易方达纯债1年定开债A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.005,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "202001",
+      "name": "南方稳健成长混合",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.01,
+      "payDate": "2026-07-07",
+      "dividendType": "1"
+    },
+    {
+      "code": "010300",
+      "name": "南方产业升级混合C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.01,
+      "payDate": "2026-07-07",
+      "dividendType": "1"
+    },
+    {
+      "code": "003637",
+      "name": "安信永鑫增强债券A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.002,
+      "payDate": "2026-07-07",
+      "dividendType": "1"
+    },
+    {
+      "code": "003638",
+      "name": "安信永鑫增强债券C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.006,
+      "payDate": "2026-07-07",
+      "dividendType": "1"
+    },
+    {
+      "code": "010299",
+      "name": "南方产业升级混合A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.01,
+      "payDate": "2026-07-07",
+      "dividendType": "1"
+    },
+    {
+      "code": "003837",
+      "name": "东方臻享纯债债券A",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.016,
+      "payDate": "2026-07-07",
+      "dividendType": "4"
+    },
+    {
+      "code": "003838",
+      "name": "东方臻享纯债债券C",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.016,
+      "payDate": "2026-07-07",
+      "dividendType": "4"
+    },
+    {
+      "code": "630001",
+      "name": "华商领先企业混合",
+      "equityRecordDate": "2026-07-06",
+      "exDividendDate": "2026-07-06",
+      "dividendPerShare": 0.17571,
+      "payDate": "2026-07-08",
+      "dividendType": "1"
+    },
+    {
+      "code": "508098",
+      "name": "嘉实京东仓储基础设施REIT",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.03602,
+      "payDate": "2026-07-07",
+      "dividendType": "6"
+    },
+    {
+      "code": "003025",
+      "name": "新华红利回报混合",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.01,
+      "payDate": "2026-07-07",
+      "dividendType": "1"
+    },
+    {
+      "code": "008539",
+      "name": "工银开元利率债债券A",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.0088,
+      "payDate": "2026-07-06",
+      "dividendType": "1"
+    },
+    {
+      "code": "008540",
+      "name": "工银开元利率债债券C",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.0018,
+      "payDate": "2026-07-06",
+      "dividendType": "1"
+    },
+    {
+      "code": "018716",
+      "name": "工银瑞宁3个月定开债券A",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.0068,
+      "payDate": "2026-07-06",
+      "dividendType": null
+    },
+    {
+      "code": "018717",
+      "name": "工银瑞宁3个月定开债券C",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.0062,
+      "payDate": "2026-07-06",
+      "dividendType": null
+    },
+    {
+      "code": "000326",
+      "name": "南方中小盘成长股票A",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.0195,
+      "payDate": "2026-07-06",
+      "dividendType": "1"
+    },
+    {
+      "code": "019717",
+      "name": "南方中小盘成长股票C",
+      "equityRecordDate": "2026-07-03",
+      "exDividendDate": "2026-07-03",
+      "dividendPerShare": 0.0157,
+      "payDate": "2026-07-06",
+      "dividendType": "1"
+    },
+    {
+      "code": "508056",
+      "name": "中金普洛斯REIT",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.03376,
+      "payDate": "2026-07-06",
+      "dividendType": "6"
+    },
+    {
+      "code": "508029",
+      "name": "中信建投沈阳国际软件园REIT",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.0612,
+      "payDate": "2026-07-06",
+      "dividendType": null
+    },
+    {
+      "code": "180602",
+      "name": "中金印力消费REIT",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.042,
+      "payDate": "2026-07-06",
+      "dividendType": "6"
+    },
+    {
+      "code": "008164",
+      "name": "南方标普红利低波50ETF联接C",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.003,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "008163",
+      "name": "南方标普红利低波50ETF联接A",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.004,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "021056",
+      "name": "南方标普红利低波50ETF联接I",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.004,
+      "payDate": "2026-07-03",
+      "dividendType": null
+    },
+    {
+      "code": "023013",
+      "name": "南方安睿混合C",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.0109,
+      "payDate": "2026-07-03",
+      "dividendType": null
+    },
+    {
+      "code": "006588",
+      "name": "中加聚利纯债定开A",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.015,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "006589",
+      "name": "中加聚利纯债定开C",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.015,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "022517",
+      "name": "中加聚利纯债定开D",
+      "equityRecordDate": "2026-07-02",
+      "exDividendDate": "2026-07-02",
+      "dividendPerShare": 0.015,
+      "payDate": "2026-07-03",
+      "dividendType": null
+    },
+    {
+      "code": "630001",
+      "name": "华商领先企业混合",
+      "equityRecordDate": "2026-07-01",
+      "exDividendDate": "2026-07-01",
+      "dividendPerShare": 0.03197,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "540005",
+      "name": "汇丰晋信平稳增利中短债债券A",
+      "equityRecordDate": "2026-07-01",
+      "exDividendDate": "2026-07-01",
+      "dividendPerShare": 0.0056,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "021226",
+      "name": "汇丰晋信平稳增利中短债债券D",
+      "equityRecordDate": "2026-07-01",
+      "exDividendDate": "2026-07-01",
+      "dividendPerShare": 0.0057,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "541005",
+      "name": "汇丰晋信平稳增利中短债债券C",
+      "equityRecordDate": "2026-07-01",
+      "exDividendDate": "2026-07-01",
+      "dividendPerShare": 0.0051,
+      "payDate": "2026-07-03",
+      "dividendType": "1"
+    },
+    {
+      "code": "180606",
+      "name": "中金中国绿发消费REIT",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.04184,
+      "payDate": "2026-07-02",
+      "dividendType": "6"
+    },
+    {
+      "code": "180302",
+      "name": "华夏深国际REIT",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.02947,
+      "payDate": "2026-07-02",
+      "dividendType": "6"
+    },
+    {
+      "code": "005820",
+      "name": "博时富兴纯债3个月定开债发起式",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.0147,
+      "payDate": "2026-07-02",
+      "dividendType": null
+    },
+    {
+      "code": "009357",
+      "name": "博时季季乐持有期债券C",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.045,
+      "payDate": "2026-07-02",
+      "dividendType": "1"
+    },
+    {
+      "code": "009356",
+      "name": "博时季季乐持有期债券A",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.045,
+      "payDate": "2026-07-02",
+      "dividendType": "1"
+    },
+    {
+      "code": "501070",
+      "name": "广发睿阳三年定开混合",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.0331,
+      "payDate": "2026-07-02",
+      "dividendType": "6"
+    },
+    {
+      "code": "015832",
+      "name": "永赢宏泰短债A",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.0046,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "015833",
+      "name": "永赢宏泰短债C",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.0036,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "021307",
+      "name": "永赢宏泰短债E",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.0043,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "022660",
+      "name": "永赢宏泰短债D",
+      "equityRecordDate": "2026-06-30",
+      "exDividendDate": "2026-06-30",
+      "dividendPerShare": 0.0055,
+      "payDate": "2026-07-01",
+      "dividendType": null
+    },
+    {
+      "code": "508082",
+      "name": "中金唯品会奥莱REIT",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.04666,
+      "payDate": "2026-07-01",
+      "dividendType": "6"
+    },
+    {
+      "code": "007302",
+      "name": "华宝宝盛债券A",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0057,
+      "payDate": "2026-06-30",
+      "dividendType": null
+    },
+    {
+      "code": "019214",
+      "name": "华宝宝盛债券C",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0057,
+      "payDate": "2026-06-30",
+      "dividendType": null
+    },
+    {
+      "code": "007513",
+      "name": "博时富丰3个月定开债",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.001,
+      "payDate": "2026-07-01",
+      "dividendType": "5"
+    },
+    {
+      "code": "004458",
+      "name": "博时华盈纯债债券A",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.014,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "020681",
+      "name": "博时华盈纯债债券C",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.008,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "004499",
+      "name": "鹏华丰瑞债券A",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0131,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "003547",
+      "name": "鹏华丰禄债券",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0183,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "003025",
+      "name": "新华红利回报混合",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0547,
+      "payDate": "2026-07-01",
+      "dividendType": "1"
+    },
+    {
+      "code": "008608",
+      "name": "广发汇浦三年定期开放债券",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0129,
+      "payDate": "2026-06-30",
+      "dividendType": null
+    },
+    {
+      "code": "016661",
+      "name": "华商鸿丰纯债",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.00825,
+      "payDate": "2026-07-01",
+      "dividendType": null
+    },
+    {
+      "code": "009584",
+      "name": "华富63个月定期开放债券",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.01,
+      "payDate": "2026-06-30",
+      "dividendType": "6"
+    },
+    {
+      "code": "008018",
+      "name": "华富安兴39个月定开债A",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0016,
+      "payDate": "2026-06-30",
+      "dividendType": "6"
+    },
+    {
+      "code": "008019",
+      "name": "华富安兴39个月定开债C",
+      "equityRecordDate": "2026-06-29",
+      "exDividendDate": "2026-06-29",
+      "dividendPerShare": 0.0005,
+      "payDate": "2026-06-30",
+      "dividendType": "6"
+    },
+    {
+      "code": "513950",
+      "name": "恒生红利ETF富国",
+      "equityRecordDate": "2026-06-25",
+      "exDividendDate": "2026-06-26",
+      "dividendPerShare": 0.007,
+      "payDate": "2026-07-01",
+      "dividendType": null
+    },
+    {
+      "code": "508086",
+      "name": "工银河北高速REIT",
+      "equityRecordDate": "2026-06-26",
+      "exDividendDate": "2026-06-26",
+      "dividendPerShare": 0.102,
+      "payDate": "2026-06-30",
+      "dividendType": "6"
+    },
+    {
+      "code": "002807",
+      "name": "融通通安债券",
+      "equityRecordDate": "2026-06-26",
+      "exDividendDate": "2026-06-26",
+      "dividendPerShare": 0.0129,
+      "payDate": "2026-06-30",
+      "dividendType": "1"
+    },
+    {
+      "code": "002523",
+      "name": "光大恒利纯债债券A",
+      "equityRecordDate": "2026-06-26",
+      "exDividendDate": "2026-06-26",
+      "dividendPerShare": 0.0117,
+      "payDate": "2026-06-30",
+      "dividendType": "1"
+    },
+    {
+      "code": "018970",
+      "name": "光大恒利纯债债券D",
+      "equityRecordDate": "2026-06-26",
+      "exDividendDate": "2026-06-26",
+      "dividendPerShare": 0.0096,
+      "payDate": "2026-06-30",
+      "dividendType": null
+    }
+  ],
+  "totalPages": 35,
+  "pageSize": 100,
+  "currentPage": 1
+}

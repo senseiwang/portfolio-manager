@@ -1,0 +1,5 @@
+holdings:
+  - code: "600519"
+    # 缺少 shares 和 costPrice
+watchlist:
+  - "002415"

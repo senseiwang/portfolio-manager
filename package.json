@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "node-cron": "^3.0.3",
+    "stock-sdk": "file:../stock-sdk",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "@types/node-cron": "^3.0.11",
+    "@vitest/coverage-v8": "2.1.9",
+    "eslint": "^9.0.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.5.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^2.0.0"
+  }
+}

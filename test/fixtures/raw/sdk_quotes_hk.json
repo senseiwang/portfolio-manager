@@ -1,0 +1,26 @@
+[
+  {
+    "marketId": "100",
+    "name": "腾讯控股",
+    "code": "00700",
+    "price": 431.2,
+    "prevClose": 430.2,
+    "open": 433,
+    "volume": 24957296,
+    "time": "2026/07/03 16:08:18",
+    "timestamp": null,
+    "tz": "Asia/Hong_Kong",
+    "change": 1,
+    "changePercent": 0.23,
+    "high": 445.8,
+    "low": 431.2,
+    "amount": 10897851806.21,
+    "lotSize": null,
+    "circulatingMarketCap": 39205.7166,
+    "totalMarketCap": 39205.7166,
+    "currency": "HKD",
+    "market": "HK",
+    "assetType": "stock",
+    "source": "tencent"
+  }
+]

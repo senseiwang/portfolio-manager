@@ -1,0 +1,14 @@
+holdings:
+  - code: "600519"
+    shares: 100
+    costPrice: 1500.50
+  - code: "000001"
+    shares: 500
+    costPrice: 10.20
+  - code: "000333"
+    shares: 200
+    costPrice: 58.80
+watchlist:
+  - "002415"
+  - "300750"
+  - "601318"

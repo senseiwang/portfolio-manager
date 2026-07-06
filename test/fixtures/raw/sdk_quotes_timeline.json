@@ -1,0 +1,2412 @@
+{
+  "code": "sh600519",
+  "date": "20260703",
+  "timestamp": 1783008000000,
+  "tz": "Asia/Shanghai",
+  "preClose": 1203,
+  "data": [
+    {
+      "time": "09:30",
+      "timestamp": 1783042200000,
+      "tz": "Asia/Shanghai",
+      "price": 1205.24,
+      "volume": 39000,
+      "amount": 47004360.12,
+      "avgPrice": 1205.24
+    },
+    {
+      "time": "09:31",
+      "timestamp": 1783042260000,
+      "tz": "Asia/Shanghai",
+      "price": 1203,
+      "volume": 126100,
+      "amount": 151906079.89,
+      "avgPrice": 1204.65
+    },
+    {
+      "time": "09:32",
+      "timestamp": 1783042320000,
+      "tz": "Asia/Shanghai",
+      "price": 1208.88,
+      "volume": 163200,
+      "amount": 196699717.61,
+      "avgPrice": 1205.27
+    },
+    {
+      "time": "09:33",
+      "timestamp": 1783042380000,
+      "tz": "Asia/Shanghai",
+      "price": 1205,
+      "volume": 196400,
+      "amount": 236766112.18,
+      "avgPrice": 1205.53
+    },
+    {
+      "time": "09:34",
+      "timestamp": 1783042440000,
+      "tz": "Asia/Shanghai",
+      "price": 1208.5,
+      "volume": 240600,
+      "amount": 290153511.75,
+      "avgPrice": 1205.96
+    },
+    {
+      "time": "09:35",
+      "timestamp": 1783042500000,
+      "tz": "Asia/Shanghai",
+      "price": 1209.82,
+      "volume": 272800,
+      "amount": 329100154.27,
+      "avgPrice": 1206.38
+    },
+    {
+      "time": "09:36",
+      "timestamp": 1783042560000,
+      "tz": "Asia/Shanghai",
+      "price": 1209.88,
+      "volume": 314800,
+      "amount": 379916363.1,
+      "avgPrice": 1206.85
+    },
+    {
+      "time": "09:37",
+      "timestamp": 1783042620000,
+      "tz": "Asia/Shanghai",
+      "price": 1206.22,
+      "volume": 353000,
+      "amount": 426084623.23,
+      "avgPrice": 1207.04
+    },
+    {
+      "time": "09:38",
+      "timestamp": 1783042680000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.38,
+      "volume": 406700,
+      "amount": 490611135.93,
+      "avgPrice": 1206.32
+    },
+    {
+      "time": "09:39",
+      "timestamp": 1783042740000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.78,
+      "volume": 441300,
+      "amount": 532228989.29,
+      "avgPrice": 1206.05
+    },
+    {
+      "time": "09:40",
+      "timestamp": 1783042800000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.05,
+      "volume": 497200,
+      "amount": 599289202.97,
+      "avgPrice": 1205.33
+    },
+    {
+      "time": "09:41",
+      "timestamp": 1783042860000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.01,
+      "volume": 530800,
+      "amount": 639544064.53,
+      "avgPrice": 1204.87
+    },
+    {
+      "time": "09:42",
+      "timestamp": 1783042920000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.25,
+      "volume": 563700,
+      "amount": 678992546.89,
+      "avgPrice": 1204.53
+    },
+    {
+      "time": "09:43",
+      "timestamp": 1783042980000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.99,
+      "volume": 584800,
+      "amount": 704297574.64,
+      "avgPrice": 1204.34
+    },
+    {
+      "time": "09:44",
+      "timestamp": 1783043040000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.03,
+      "volume": 605500,
+      "amount": 729106014.44,
+      "avgPrice": 1204.14
+    },
+    {
+      "time": "09:45",
+      "timestamp": 1783043100000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.56,
+      "volume": 630900,
+      "amount": 759565645,
+      "avgPrice": 1203.94
+    },
+    {
+      "time": "09:46",
+      "timestamp": 1783043160000,
+      "tz": "Asia/Shanghai",
+      "price": 1200,
+      "volume": 645200,
+      "amount": 776738158,
+      "avgPrice": 1203.87
+    },
+    {
+      "time": "09:47",
+      "timestamp": 1783043220000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.73,
+      "volume": 668600,
+      "amount": 804808406,
+      "avgPrice": 1203.72
+    },
+    {
+      "time": "09:48",
+      "timestamp": 1783043280000,
+      "tz": "Asia/Shanghai",
+      "price": 1199.49,
+      "volume": 680600,
+      "amount": 819195969.67,
+      "avgPrice": 1203.64
+    },
+    {
+      "time": "09:49",
+      "timestamp": 1783043340000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.46,
+      "volume": 695500,
+      "amount": 837070773.71,
+      "avgPrice": 1203.55
+    },
+    {
+      "time": "09:50",
+      "timestamp": 1783043400000,
+      "tz": "Asia/Shanghai",
+      "price": 1204.2,
+      "volume": 709700,
+      "amount": 854149932.34,
+      "avgPrice": 1203.54
+    },
+    {
+      "time": "09:51",
+      "timestamp": 1783043460000,
+      "tz": "Asia/Shanghai",
+      "price": 1205.99,
+      "volume": 735500,
+      "amount": 885253051.96,
+      "avgPrice": 1203.61
+    },
+    {
+      "time": "09:52",
+      "timestamp": 1783043520000,
+      "tz": "Asia/Shanghai",
+      "price": 1207,
+      "volume": 758500,
+      "amount": 913025149.67,
+      "avgPrice": 1203.72
+    },
+    {
+      "time": "09:53",
+      "timestamp": 1783043580000,
+      "tz": "Asia/Shanghai",
+      "price": 1205.18,
+      "volume": 778400,
+      "amount": 937056764.96,
+      "avgPrice": 1203.82
+    },
+    {
+      "time": "09:54",
+      "timestamp": 1783043640000,
+      "tz": "Asia/Shanghai",
+      "price": 1207.76,
+      "volume": 797700,
+      "amount": 960332525.17,
+      "avgPrice": 1203.88
+    },
+    {
+      "time": "09:55",
+      "timestamp": 1783043700000,
+      "tz": "Asia/Shanghai",
+      "price": 1203.2,
+      "volume": 819100,
+      "amount": 986154943.84,
+      "avgPrice": 1203.95
+    },
+    {
+      "time": "09:56",
+      "timestamp": 1783043760000,
+      "tz": "Asia/Shanghai",
+      "price": 1202.6,
+      "volume": 834100,
+      "amount": 1004201469.49,
+      "avgPrice": 1203.93
+    },
+    {
+      "time": "09:57",
+      "timestamp": 1783043820000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.05,
+      "volume": 844800,
+      "amount": 1017055799.73,
+      "avgPrice": 1203.9
+    },
+    {
+      "time": "09:58",
+      "timestamp": 1783043880000,
+      "tz": "Asia/Shanghai",
+      "price": 1203.59,
+      "volume": 860100,
+      "amount": 1035452079.1,
+      "avgPrice": 1203.87
+    },
+    {
+      "time": "09:59",
+      "timestamp": 1783043940000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.94,
+      "volume": 870200,
+      "amount": 1047585940.44,
+      "avgPrice": 1203.85
+    },
+    {
+      "time": "10:00",
+      "timestamp": 1783044000000,
+      "tz": "Asia/Shanghai",
+      "price": 1199,
+      "volume": 898100,
+      "amount": 1081048141.23,
+      "avgPrice": 1203.71
+    },
+    {
+      "time": "10:01",
+      "timestamp": 1783044060000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.74,
+      "volume": 921100,
+      "amount": 1108623325.48,
+      "avgPrice": 1203.59
+    },
+    {
+      "time": "10:02",
+      "timestamp": 1783044120000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.19,
+      "volume": 959800,
+      "amount": 1154985729.3,
+      "avgPrice": 1203.36
+    },
+    {
+      "time": "10:03",
+      "timestamp": 1783044180000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.56,
+      "volume": 994000,
+      "amount": 1195925096.31,
+      "avgPrice": 1203.14
+    },
+    {
+      "time": "10:04",
+      "timestamp": 1783044240000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.2,
+      "volume": 1006400,
+      "amount": 1210759084.48,
+      "avgPrice": 1203.06
+    },
+    {
+      "time": "10:05",
+      "timestamp": 1783044300000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.51,
+      "volume": 1014000,
+      "amount": 1219867235.2,
+      "avgPrice": 1203.02
+    },
+    {
+      "time": "10:06",
+      "timestamp": 1783044360000,
+      "tz": "Asia/Shanghai",
+      "price": 1199.1,
+      "volume": 1023100,
+      "amount": 1230779451.92,
+      "avgPrice": 1202.99
+    },
+    {
+      "time": "10:07",
+      "timestamp": 1783044420000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.29,
+      "volume": 1038900,
+      "amount": 1249712868.35,
+      "avgPrice": 1202.92
+    },
+    {
+      "time": "10:08",
+      "timestamp": 1783044480000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.17,
+      "volume": 1049300,
+      "amount": 1262172496.97,
+      "avgPrice": 1202.87
+    },
+    {
+      "time": "10:09",
+      "timestamp": 1783044540000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.94,
+      "volume": 1065300,
+      "amount": 1281333968.33,
+      "avgPrice": 1202.79
+    },
+    {
+      "time": "10:10",
+      "timestamp": 1783044600000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.96,
+      "volume": 1095400,
+      "amount": 1317367833.09,
+      "avgPrice": 1202.64
+    },
+    {
+      "time": "10:11",
+      "timestamp": 1783044660000,
+      "tz": "Asia/Shanghai",
+      "price": 1199.03,
+      "volume": 1105800,
+      "amount": 1329831642.78,
+      "avgPrice": 1202.6
+    },
+    {
+      "time": "10:12",
+      "timestamp": 1783044720000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.16,
+      "volume": 1116200,
+      "amount": 1342312092.58,
+      "avgPrice": 1202.57
+    },
+    {
+      "time": "10:13",
+      "timestamp": 1783044780000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.78,
+      "volume": 1125500,
+      "amount": 1353481140.48,
+      "avgPrice": 1202.56
+    },
+    {
+      "time": "10:14",
+      "timestamp": 1783044840000,
+      "tz": "Asia/Shanghai",
+      "price": 1203,
+      "volume": 1135900,
+      "amount": 1365975785.39,
+      "avgPrice": 1202.55
+    },
+    {
+      "time": "10:15",
+      "timestamp": 1783044900000,
+      "tz": "Asia/Shanghai",
+      "price": 1204.66,
+      "volume": 1154800,
+      "amount": 1388724694.32,
+      "avgPrice": 1202.57
+    },
+    {
+      "time": "10:16",
+      "timestamp": 1783044960000,
+      "tz": "Asia/Shanghai",
+      "price": 1203.34,
+      "volume": 1198500,
+      "amount": 1441394248.96,
+      "avgPrice": 1202.67
+    },
+    {
+      "time": "10:17",
+      "timestamp": 1783045020000,
+      "tz": "Asia/Shanghai",
+      "price": 1203.73,
+      "volume": 1213200,
+      "amount": 1459091324.36,
+      "avgPrice": 1202.68
+    },
+    {
+      "time": "10:18",
+      "timestamp": 1783045080000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.83,
+      "volume": 1220000,
+      "amount": 1467263711.23,
+      "avgPrice": 1202.68
+    },
+    {
+      "time": "10:19",
+      "timestamp": 1783045140000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.79,
+      "volume": 1226300,
+      "amount": 1474832602.05,
+      "avgPrice": 1202.67
+    },
+    {
+      "time": "10:20",
+      "timestamp": 1783045200000,
+      "tz": "Asia/Shanghai",
+      "price": 1202.75,
+      "volume": 1232300,
+      "amount": 1482044173.96,
+      "avgPrice": 1202.67
+    },
+    {
+      "time": "10:21",
+      "timestamp": 1783045260000,
+      "tz": "Asia/Shanghai",
+      "price": 1202.57,
+      "volume": 1238400,
+      "amount": 1489380255.95,
+      "avgPrice": 1202.66
+    },
+    {
+      "time": "10:22",
+      "timestamp": 1783045320000,
+      "tz": "Asia/Shanghai",
+      "price": 1203.6,
+      "volume": 1247600,
+      "amount": 1500443925.93,
+      "avgPrice": 1202.66
+    },
+    {
+      "time": "10:23",
+      "timestamp": 1783045380000,
+      "tz": "Asia/Shanghai",
+      "price": 1202.55,
+      "volume": 1259700,
+      "amount": 1515000988.04,
+      "avgPrice": 1202.67
+    },
+    {
+      "time": "10:24",
+      "timestamp": 1783045440000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.9,
+      "volume": 1266600,
+      "amount": 1523295766.96,
+      "avgPrice": 1202.67
+    },
+    {
+      "time": "10:25",
+      "timestamp": 1783045500000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.67,
+      "volume": 1277200,
+      "amount": 1536031137.69,
+      "avgPrice": 1202.66
+    },
+    {
+      "time": "10:26",
+      "timestamp": 1783045560000,
+      "tz": "Asia/Shanghai",
+      "price": 1201.2,
+      "volume": 1279000,
+      "amount": 1538193340.63,
+      "avgPrice": 1202.65
+    },
+    {
+      "time": "10:27",
+      "timestamp": 1783045620000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.51,
+      "volume": 1286200,
+      "amount": 1546840196.38,
+      "avgPrice": 1202.64
+    },
+    {
+      "time": "10:28",
+      "timestamp": 1783045680000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.51,
+      "volume": 1289800,
+      "amount": 1551162567.23,
+      "avgPrice": 1202.64
+    },
+    {
+      "time": "10:29",
+      "timestamp": 1783045740000,
+      "tz": "Asia/Shanghai",
+      "price": 1199.88,
+      "volume": 1301100,
+      "amount": 1564723179.62,
+      "avgPrice": 1202.62
+    },
+    {
+      "time": "10:30",
+      "timestamp": 1783045800000,
+      "tz": "Asia/Shanghai",
+      "price": 1201,
+      "volume": 1308700,
+      "amount": 1573845649.26,
+      "avgPrice": 1202.6
+    },
+    {
+      "time": "10:31",
+      "timestamp": 1783045860000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.11,
+      "volume": 1313200,
+      "amount": 1579247187.05,
+      "avgPrice": 1202.59
+    },
+    {
+      "time": "10:32",
+      "timestamp": 1783045920000,
+      "tz": "Asia/Shanghai",
+      "price": 1199.09,
+      "volume": 1319400,
+      "amount": 1586686852.72,
+      "avgPrice": 1202.58
+    },
+    {
+      "time": "10:33",
+      "timestamp": 1783045980000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.62,
+      "volume": 1333900,
+      "amount": 1604076660.75,
+      "avgPrice": 1202.55
+    },
+    {
+      "time": "10:34",
+      "timestamp": 1783046040000,
+      "tz": "Asia/Shanghai",
+      "price": 1200.59,
+      "volume": 1337900,
+      "amount": 1608879055.6,
+      "avgPrice": 1202.54
+    },
+    {
+      "time": "10:35",
+      "timestamp": 1783046100000,
+      "tz": "Asia/Shanghai",
+      "price": 1199.1,
+      "volume": 1342200,
+      "amount": 1614038688.37,
+      "avgPrice": 1202.53
+    },
+    {
+      "time": "10:36",
+      "timestamp": 1783046160000,
+      "tz": "Asia/Shanghai",
+      "price": 1199.06,
+      "volume": 1346500,
+      "amount": 1619194654.07,
+      "avgPrice": 1202.52
+    },
+    {
+      "time": "10:37",
+      "timestamp": 1783046220000,
+      "tz": "Asia/Shanghai",
+      "price": 1199,
+      "volume": 1356900,
+      "amount": 1631665998.38,
+      "avgPrice": 1202.5
+    },
+    {
+      "time": "10:38",
+      "timestamp": 1783046280000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.49,
+      "volume": 1363700,
+      "amount": 1639816379.85,
+      "avgPrice": 1202.48
+    },
+    {
+      "time": "10:39",
+      "timestamp": 1783046340000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.58,
+      "volume": 1368500,
+      "amount": 1645569262.47,
+      "avgPrice": 1202.46
+    },
+    {
+      "time": "10:40",
+      "timestamp": 1783046400000,
+      "tz": "Asia/Shanghai",
+      "price": 1198.03,
+      "volume": 1378000,
+      "amount": 1656954307.72,
+      "avgPrice": 1202.43
+    },
+    {
+      "time": "10:41",
+      "timestamp": 1783046460000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.57,
+      "volume": 1389400,
+      "amount": 1670610478.72,
+      "avgPrice": 1202.4
+    },
+    {
+      "time": "10:42",
+      "timestamp": 1783046520000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.19,
+      "volume": 1395900,
+      "amount": 1678391837.06,
+      "avgPrice": 1202.37
+    },
+    {
+      "time": "10:43",
+      "timestamp": 1783046580000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.23,
+      "volume": 1403400,
+      "amount": 1687370836.31,
+      "avgPrice": 1202.34
+    },
+    {
+      "time": "10:44",
+      "timestamp": 1783046640000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.58,
+      "volume": 1432100,
+      "amount": 1721724367.41,
+      "avgPrice": 1202.24
+    },
+    {
+      "time": "10:45",
+      "timestamp": 1783046700000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.3,
+      "volume": 1442000,
+      "amount": 1733569766.35,
+      "avgPrice": 1202.2
+    },
+    {
+      "time": "10:46",
+      "timestamp": 1783046760000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.5,
+      "volume": 1452500,
+      "amount": 1746133081.24,
+      "avgPrice": 1202.16
+    },
+    {
+      "time": "10:47",
+      "timestamp": 1783046820000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.12,
+      "volume": 1463200,
+      "amount": 1758933563.08,
+      "avgPrice": 1202.11
+    },
+    {
+      "time": "10:48",
+      "timestamp": 1783046880000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.03,
+      "volume": 1471400,
+      "amount": 1768741403.18,
+      "avgPrice": 1202.08
+    },
+    {
+      "time": "10:49",
+      "timestamp": 1783046940000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.99,
+      "volume": 1486800,
+      "amount": 1787174077.74,
+      "avgPrice": 1202.03
+    },
+    {
+      "time": "10:50",
+      "timestamp": 1783047000000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.59,
+      "volume": 1495100,
+      "amount": 1797107724.04,
+      "avgPrice": 1202
+    },
+    {
+      "time": "10:51",
+      "timestamp": 1783047060000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.68,
+      "volume": 1502500,
+      "amount": 1805962884.64,
+      "avgPrice": 1201.97
+    },
+    {
+      "time": "10:52",
+      "timestamp": 1783047120000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.79,
+      "volume": 1508400,
+      "amount": 1813024910.1,
+      "avgPrice": 1201.95
+    },
+    {
+      "time": "10:53",
+      "timestamp": 1783047180000,
+      "tz": "Asia/Shanghai",
+      "price": 1197,
+      "volume": 1516700,
+      "amount": 1822957292.37,
+      "avgPrice": 1201.92
+    },
+    {
+      "time": "10:54",
+      "timestamp": 1783047240000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.21,
+      "volume": 1521700,
+      "amount": 1828942631.07,
+      "avgPrice": 1201.91
+    },
+    {
+      "time": "10:55",
+      "timestamp": 1783047300000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.53,
+      "volume": 1532700,
+      "amount": 1842105907.99,
+      "avgPrice": 1201.87
+    },
+    {
+      "time": "10:56",
+      "timestamp": 1783047360000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.22,
+      "volume": 1543900,
+      "amount": 1855506526.89,
+      "avgPrice": 1201.83
+    },
+    {
+      "time": "10:57",
+      "timestamp": 1783047420000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.03,
+      "volume": 1556200,
+      "amount": 1870217791.95,
+      "avgPrice": 1201.78
+    },
+    {
+      "time": "10:58",
+      "timestamp": 1783047480000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.02,
+      "volume": 1566700,
+      "amount": 1882776031.83,
+      "avgPrice": 1201.75
+    },
+    {
+      "time": "10:59",
+      "timestamp": 1783047540000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.8,
+      "volume": 1573600,
+      "amount": 1891030440.38,
+      "avgPrice": 1201.72
+    },
+    {
+      "time": "11:00",
+      "timestamp": 1783047600000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.11,
+      "volume": 1577500,
+      "amount": 1895698860.65,
+      "avgPrice": 1201.71
+    },
+    {
+      "time": "11:01",
+      "timestamp": 1783047660000,
+      "tz": "Asia/Shanghai",
+      "price": 1197.01,
+      "volume": 1582100,
+      "amount": 1901205182.96,
+      "avgPrice": 1201.7
+    },
+    {
+      "time": "11:02",
+      "timestamp": 1783047720000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.49,
+      "volume": 1592100,
+      "amount": 1913171657.99,
+      "avgPrice": 1201.67
+    },
+    {
+      "time": "11:03",
+      "timestamp": 1783047780000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.49,
+      "volume": 1598400,
+      "amount": 1920710280.87,
+      "avgPrice": 1201.65
+    },
+    {
+      "time": "11:04",
+      "timestamp": 1783047840000,
+      "tz": "Asia/Shanghai",
+      "price": 1196,
+      "volume": 1620900,
+      "amount": 1947620761.95,
+      "avgPrice": 1201.57
+    },
+    {
+      "time": "11:05",
+      "timestamp": 1783047900000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.21,
+      "volume": 1649100,
+      "amount": 1981330779.38,
+      "avgPrice": 1201.46
+    },
+    {
+      "time": "11:06",
+      "timestamp": 1783047960000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.09,
+      "volume": 1658300,
+      "amount": 1992326200.18,
+      "avgPrice": 1201.43
+    },
+    {
+      "time": "11:07",
+      "timestamp": 1783048020000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.02,
+      "volume": 1672600,
+      "amount": 2009415736.43,
+      "avgPrice": 1201.37
+    },
+    {
+      "time": "11:08",
+      "timestamp": 1783048080000,
+      "tz": "Asia/Shanghai",
+      "price": 1194,
+      "volume": 1705300,
+      "amount": 2048480878.39,
+      "avgPrice": 1201.24
+    },
+    {
+      "time": "11:09",
+      "timestamp": 1783048140000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.07,
+      "volume": 1715500,
+      "amount": 2060651705.49,
+      "avgPrice": 1201.2
+    },
+    {
+      "time": "11:10",
+      "timestamp": 1783048200000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.06,
+      "volume": 1723300,
+      "amount": 2069957820.34,
+      "avgPrice": 1201.16
+    },
+    {
+      "time": "11:11",
+      "timestamp": 1783048260000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.08,
+      "volume": 1730700,
+      "amount": 2078786848.13,
+      "avgPrice": 1201.12
+    },
+    {
+      "time": "11:12",
+      "timestamp": 1783048320000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.44,
+      "volume": 1739300,
+      "amount": 2089048503.63,
+      "avgPrice": 1201.09
+    },
+    {
+      "time": "11:13",
+      "timestamp": 1783048380000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.27,
+      "volume": 1750200,
+      "amount": 2102062560.34,
+      "avgPrice": 1201.04
+    },
+    {
+      "time": "11:14",
+      "timestamp": 1783048440000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.15,
+      "volume": 1761100,
+      "amount": 2115083334.98,
+      "avgPrice": 1201
+    },
+    {
+      "time": "11:15",
+      "timestamp": 1783048500000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.79,
+      "volume": 1773400,
+      "amount": 2129775905.7,
+      "avgPrice": 1200.96
+    },
+    {
+      "time": "11:16",
+      "timestamp": 1783048560000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.44,
+      "volume": 1783200,
+      "amount": 2141475766.32,
+      "avgPrice": 1200.92
+    },
+    {
+      "time": "11:17",
+      "timestamp": 1783048620000,
+      "tz": "Asia/Shanghai",
+      "price": 1191,
+      "volume": 1818700,
+      "amount": 2183805285.73,
+      "avgPrice": 1200.75
+    },
+    {
+      "time": "11:18",
+      "timestamp": 1783048680000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.12,
+      "volume": 1834400,
+      "amount": 2202505410.64,
+      "avgPrice": 1200.67
+    },
+    {
+      "time": "11:19",
+      "timestamp": 1783048740000,
+      "tz": "Asia/Shanghai",
+      "price": 1191,
+      "volume": 1843800,
+      "amount": 2213700995.77,
+      "avgPrice": 1200.62
+    },
+    {
+      "time": "11:20",
+      "timestamp": 1783048800000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.26,
+      "volume": 1862900,
+      "amount": 2236458662.92,
+      "avgPrice": 1200.53
+    },
+    {
+      "time": "11:21",
+      "timestamp": 1783048860000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.51,
+      "volume": 1871500,
+      "amount": 2246710838.81,
+      "avgPrice": 1200.49
+    },
+    {
+      "time": "11:22",
+      "timestamp": 1783048920000,
+      "tz": "Asia/Shanghai",
+      "price": 1192.01,
+      "volume": 1890800,
+      "amount": 2269725829.68,
+      "avgPrice": 1200.41
+    },
+    {
+      "time": "11:23",
+      "timestamp": 1783048980000,
+      "tz": "Asia/Shanghai",
+      "price": 1192.86,
+      "volume": 1899600,
+      "amount": 2280219688.53,
+      "avgPrice": 1200.37
+    },
+    {
+      "time": "11:24",
+      "timestamp": 1783049040000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.63,
+      "volume": 1910100,
+      "amount": 2292734284.6,
+      "avgPrice": 1200.32
+    },
+    {
+      "time": "11:25",
+      "timestamp": 1783049100000,
+      "tz": "Asia/Shanghai",
+      "price": 1192.65,
+      "volume": 1920400,
+      "amount": 2305010175.65,
+      "avgPrice": 1200.28
+    },
+    {
+      "time": "11:26",
+      "timestamp": 1783049160000,
+      "tz": "Asia/Shanghai",
+      "price": 1192.6,
+      "volume": 1929200,
+      "amount": 2315501216.5,
+      "avgPrice": 1200.24
+    },
+    {
+      "time": "11:27",
+      "timestamp": 1783049220000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.38,
+      "volume": 1939000,
+      "amount": 2327180262.49,
+      "avgPrice": 1200.2
+    },
+    {
+      "time": "11:28",
+      "timestamp": 1783049280000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.34,
+      "volume": 1956600,
+      "amount": 2348158212.2,
+      "avgPrice": 1200.12
+    },
+    {
+      "time": "11:29",
+      "timestamp": 1783049340000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.33,
+      "volume": 1964800,
+      "amount": 2357927452.04,
+      "avgPrice": 1200.09
+    },
+    {
+      "time": "11:30",
+      "timestamp": 1783049400000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.31,
+      "volume": 1974800,
+      "amount": 2369840143.07,
+      "avgPrice": 1200.04
+    },
+    {
+      "time": "13:00",
+      "timestamp": 1783054800000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.31,
+      "volume": 1974800,
+      "amount": 2369840143.07,
+      "avgPrice": 1200.04
+    },
+    {
+      "time": "13:01",
+      "timestamp": 1783054860000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.56,
+      "volume": 2086400,
+      "amount": 2502646463.93,
+      "avgPrice": 1199.5
+    },
+    {
+      "time": "13:02",
+      "timestamp": 1783054920000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.53,
+      "volume": 2106200,
+      "amount": 2526182087.56,
+      "avgPrice": 1199.4
+    },
+    {
+      "time": "13:03",
+      "timestamp": 1783054980000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.29,
+      "volume": 2120200,
+      "amount": 2542819721.72,
+      "avgPrice": 1199.33
+    },
+    {
+      "time": "13:04",
+      "timestamp": 1783055040000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.66,
+      "volume": 2130100,
+      "amount": 2554589794.49,
+      "avgPrice": 1199.28
+    },
+    {
+      "time": "13:05",
+      "timestamp": 1783055100000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.93,
+      "volume": 2146500,
+      "amount": 2574094364.71,
+      "avgPrice": 1199.21
+    },
+    {
+      "time": "13:06",
+      "timestamp": 1783055160000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.55,
+      "volume": 2162400,
+      "amount": 2593000145.91,
+      "avgPrice": 1199.13
+    },
+    {
+      "time": "13:07",
+      "timestamp": 1783055220000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.17,
+      "volume": 2173600,
+      "amount": 2606331507.64,
+      "avgPrice": 1199.09
+    },
+    {
+      "time": "13:08",
+      "timestamp": 1783055280000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.01,
+      "volume": 2192000,
+      "amount": 2628244297.74,
+      "avgPrice": 1199.02
+    },
+    {
+      "time": "13:09",
+      "timestamp": 1783055340000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.78,
+      "volume": 2209400,
+      "amount": 2648952001.86,
+      "avgPrice": 1198.95
+    },
+    {
+      "time": "13:10",
+      "timestamp": 1783055400000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.35,
+      "volume": 2220600,
+      "amount": 2662280451.58,
+      "avgPrice": 1198.9
+    },
+    {
+      "time": "13:11",
+      "timestamp": 1783055460000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.01,
+      "volume": 2232800,
+      "amount": 2676801975.33,
+      "avgPrice": 1198.85
+    },
+    {
+      "time": "13:12",
+      "timestamp": 1783055520000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.41,
+      "volume": 2246300,
+      "amount": 2692862470.21,
+      "avgPrice": 1198.8
+    },
+    {
+      "time": "13:13",
+      "timestamp": 1783055580000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.98,
+      "volume": 2259800,
+      "amount": 2708922031.09,
+      "avgPrice": 1198.74
+    },
+    {
+      "time": "13:14",
+      "timestamp": 1783055640000,
+      "tz": "Asia/Shanghai",
+      "price": 1190,
+      "volume": 2275500,
+      "amount": 2727597421.11,
+      "avgPrice": 1198.68
+    },
+    {
+      "time": "13:15",
+      "timestamp": 1783055700000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.24,
+      "volume": 2286000,
+      "amount": 2740089530.77,
+      "avgPrice": 1198.64
+    },
+    {
+      "time": "13:16",
+      "timestamp": 1783055760000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.1,
+      "volume": 2296000,
+      "amount": 2751990980.36,
+      "avgPrice": 1198.6
+    },
+    {
+      "time": "13:17",
+      "timestamp": 1783055820000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.01,
+      "volume": 2319100,
+      "amount": 2779472548.78,
+      "avgPrice": 1198.51
+    },
+    {
+      "time": "13:18",
+      "timestamp": 1783055880000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.6,
+      "volume": 2331700,
+      "amount": 2794453452.61,
+      "avgPrice": 1198.46
+    },
+    {
+      "time": "13:19",
+      "timestamp": 1783055940000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.72,
+      "volume": 2344100,
+      "amount": 2809191625.45,
+      "avgPrice": 1198.41
+    },
+    {
+      "time": "13:20",
+      "timestamp": 1783056000000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.12,
+      "volume": 2355100,
+      "amount": 2822285516.05,
+      "avgPrice": 1198.37
+    },
+    {
+      "time": "13:21",
+      "timestamp": 1783056060000,
+      "tz": "Asia/Shanghai",
+      "price": 1190,
+      "volume": 2371400,
+      "amount": 2841684411.96,
+      "avgPrice": 1198.32
+    },
+    {
+      "time": "13:22",
+      "timestamp": 1783056120000,
+      "tz": "Asia/Shanghai",
+      "price": 1191,
+      "volume": 2382900,
+      "amount": 2855375558.56,
+      "avgPrice": 1198.28
+    },
+    {
+      "time": "13:23",
+      "timestamp": 1783056180000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.84,
+      "volume": 2397000,
+      "amount": 2872166990.26,
+      "avgPrice": 1198.23
+    },
+    {
+      "time": "13:24",
+      "timestamp": 1783056240000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.97,
+      "volume": 2407900,
+      "amount": 2885142647.82,
+      "avgPrice": 1198.2
+    },
+    {
+      "time": "13:25",
+      "timestamp": 1783056300000,
+      "tz": "Asia/Shanghai",
+      "price": 1190,
+      "volume": 2417000,
+      "amount": 2895973281.3,
+      "avgPrice": 1198.17
+    },
+    {
+      "time": "13:26",
+      "timestamp": 1783056360000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.5,
+      "volume": 2422800,
+      "amount": 2902875232.62,
+      "avgPrice": 1198.15
+    },
+    {
+      "time": "13:27",
+      "timestamp": 1783056420000,
+      "tz": "Asia/Shanghai",
+      "price": 1189,
+      "volume": 2438400,
+      "amount": 2921426837.53,
+      "avgPrice": 1198.09
+    },
+    {
+      "time": "13:28",
+      "timestamp": 1783056480000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.8,
+      "volume": 2449000,
+      "amount": 2934029348.17,
+      "avgPrice": 1198.05
+    },
+    {
+      "time": "13:29",
+      "timestamp": 1783056540000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.8,
+      "volume": 2457500,
+      "amount": 2944134914.68,
+      "avgPrice": 1198.02
+    },
+    {
+      "time": "13:30",
+      "timestamp": 1783056600000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.01,
+      "volume": 2465600,
+      "amount": 2953767433.14,
+      "avgPrice": 1197.99
+    },
+    {
+      "time": "13:31",
+      "timestamp": 1783056660000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.88,
+      "volume": 2476800,
+      "amount": 2967084114.79,
+      "avgPrice": 1197.95
+    },
+    {
+      "time": "13:32",
+      "timestamp": 1783056720000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.52,
+      "volume": 2496000,
+      "amount": 2989907053.93,
+      "avgPrice": 1197.88
+    },
+    {
+      "time": "13:33",
+      "timestamp": 1783056780000,
+      "tz": "Asia/Shanghai",
+      "price": 1187,
+      "volume": 2542100,
+      "amount": 3044672218.81,
+      "avgPrice": 1197.7
+    },
+    {
+      "time": "13:34",
+      "timestamp": 1783056840000,
+      "tz": "Asia/Shanghai",
+      "price": 1187.98,
+      "volume": 2559000,
+      "amount": 3064733819.93,
+      "avgPrice": 1197.63
+    },
+    {
+      "time": "13:35",
+      "timestamp": 1783056900000,
+      "tz": "Asia/Shanghai",
+      "price": 1186.66,
+      "volume": 2573700,
+      "amount": 3082184350.89,
+      "avgPrice": 1197.57
+    },
+    {
+      "time": "13:36",
+      "timestamp": 1783056960000,
+      "tz": "Asia/Shanghai",
+      "price": 1186,
+      "volume": 2590800,
+      "amount": 3102466220.1,
+      "avgPrice": 1197.49
+    },
+    {
+      "time": "13:37",
+      "timestamp": 1783057020000,
+      "tz": "Asia/Shanghai",
+      "price": 1186.01,
+      "volume": 2607800,
+      "amount": 3122628707.3,
+      "avgPrice": 1197.42
+    },
+    {
+      "time": "13:38",
+      "timestamp": 1783057080000,
+      "tz": "Asia/Shanghai",
+      "price": 1186.07,
+      "volume": 2617900,
+      "amount": 3134607760,
+      "avgPrice": 1197.37
+    },
+    {
+      "time": "13:39",
+      "timestamp": 1783057140000,
+      "tz": "Asia/Shanghai",
+      "price": 1185.09,
+      "volume": 2642800,
+      "amount": 3164128368.78,
+      "avgPrice": 1197.26
+    },
+    {
+      "time": "13:40",
+      "timestamp": 1783057200000,
+      "tz": "Asia/Shanghai",
+      "price": 1185.03,
+      "volume": 2651300,
+      "amount": 3174201489.41,
+      "avgPrice": 1197.22
+    },
+    {
+      "time": "13:41",
+      "timestamp": 1783057260000,
+      "tz": "Asia/Shanghai",
+      "price": 1185.12,
+      "volume": 2660700,
+      "amount": 3185344424.07,
+      "avgPrice": 1197.18
+    },
+    {
+      "time": "13:42",
+      "timestamp": 1783057320000,
+      "tz": "Asia/Shanghai",
+      "price": 1185.88,
+      "volume": 2665500,
+      "amount": 3191035840.4,
+      "avgPrice": 1197.16
+    },
+    {
+      "time": "13:43",
+      "timestamp": 1783057380000,
+      "tz": "Asia/Shanghai",
+      "price": 1185.6,
+      "volume": 2678000,
+      "amount": 3205856132.27,
+      "avgPrice": 1197.11
+    },
+    {
+      "time": "13:44",
+      "timestamp": 1783057440000,
+      "tz": "Asia/Shanghai",
+      "price": 1185.67,
+      "volume": 2686300,
+      "amount": 3215697851.83,
+      "avgPrice": 1197.07
+    },
+    {
+      "time": "13:45",
+      "timestamp": 1783057500000,
+      "tz": "Asia/Shanghai",
+      "price": 1185.75,
+      "volume": 2692200,
+      "amount": 3222693763.23,
+      "avgPrice": 1197.05
+    },
+    {
+      "time": "13:46",
+      "timestamp": 1783057560000,
+      "tz": "Asia/Shanghai",
+      "price": 1186.96,
+      "volume": 2702900,
+      "amount": 3235385431.92,
+      "avgPrice": 1197.01
+    },
+    {
+      "time": "13:47",
+      "timestamp": 1783057620000,
+      "tz": "Asia/Shanghai",
+      "price": 1187.79,
+      "volume": 2710300,
+      "amount": 3244171862.34,
+      "avgPrice": 1196.98
+    },
+    {
+      "time": "13:48",
+      "timestamp": 1783057680000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.15,
+      "volume": 2715300,
+      "amount": 3250111334.61,
+      "avgPrice": 1196.96
+    },
+    {
+      "time": "13:49",
+      "timestamp": 1783057740000,
+      "tz": "Asia/Shanghai",
+      "price": 1188,
+      "volume": 2726300,
+      "amount": 3263177868.19,
+      "avgPrice": 1196.93
+    },
+    {
+      "time": "13:50",
+      "timestamp": 1783057800000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.26,
+      "volume": 2731300,
+      "amount": 3269121522.43,
+      "avgPrice": 1196.91
+    },
+    {
+      "time": "13:51",
+      "timestamp": 1783057860000,
+      "tz": "Asia/Shanghai",
+      "price": 1188.88,
+      "volume": 2737400,
+      "amount": 3276375313.71,
+      "avgPrice": 1196.89
+    },
+    {
+      "time": "13:52",
+      "timestamp": 1783057920000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.01,
+      "volume": 2741900,
+      "amount": 3281725420.92,
+      "avgPrice": 1196.88
+    },
+    {
+      "time": "13:53",
+      "timestamp": 1783057980000,
+      "tz": "Asia/Shanghai",
+      "price": 1190,
+      "volume": 2747900,
+      "amount": 3288862797.17,
+      "avgPrice": 1196.86
+    },
+    {
+      "time": "13:54",
+      "timestamp": 1783058040000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.84,
+      "volume": 2755200,
+      "amount": 3297549497.47,
+      "avgPrice": 1196.85
+    },
+    {
+      "time": "13:55",
+      "timestamp": 1783058100000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.82,
+      "volume": 2762500,
+      "amount": 3306235706.76,
+      "avgPrice": 1196.83
+    },
+    {
+      "time": "13:56",
+      "timestamp": 1783058160000,
+      "tz": "Asia/Shanghai",
+      "price": 1189.15,
+      "volume": 2769600,
+      "amount": 3314681105.06,
+      "avgPrice": 1196.81
+    },
+    {
+      "time": "13:57",
+      "timestamp": 1783058220000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.46,
+      "volume": 2776300,
+      "amount": 3322652388.34,
+      "avgPrice": 1196.79
+    },
+    {
+      "time": "13:58",
+      "timestamp": 1783058280000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.36,
+      "volume": 2780000,
+      "amount": 3327056700.47,
+      "avgPrice": 1196.78
+    },
+    {
+      "time": "13:59",
+      "timestamp": 1783058340000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.96,
+      "volume": 2790100,
+      "amount": 3339082630.83,
+      "avgPrice": 1196.76
+    },
+    {
+      "time": "14:00",
+      "timestamp": 1783058400000,
+      "tz": "Asia/Shanghai",
+      "price": 1190.4,
+      "volume": 2793600,
+      "amount": 3343249885.95,
+      "avgPrice": 1196.75
+    },
+    {
+      "time": "14:01",
+      "timestamp": 1783058460000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.51,
+      "volume": 2810000,
+      "amount": 3362780840.49,
+      "avgPrice": 1196.72
+    },
+    {
+      "time": "14:02",
+      "timestamp": 1783058520000,
+      "tz": "Asia/Shanghai",
+      "price": 1191.11,
+      "volume": 2815600,
+      "amount": 3369451671.67,
+      "avgPrice": 1196.71
+    },
+    {
+      "time": "14:03",
+      "timestamp": 1783058580000,
+      "tz": "Asia/Shanghai",
+      "price": 1192.13,
+      "volume": 2829400,
+      "amount": 3385893624.08,
+      "avgPrice": 1196.68
+    },
+    {
+      "time": "14:04",
+      "timestamp": 1783058640000,
+      "tz": "Asia/Shanghai",
+      "price": 1193,
+      "volume": 2839200,
+      "amount": 3397582878.29,
+      "avgPrice": 1196.67
+    },
+    {
+      "time": "14:05",
+      "timestamp": 1783058700000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.38,
+      "volume": 2846600,
+      "amount": 3406410655.45,
+      "avgPrice": 1196.66
+    },
+    {
+      "time": "14:06",
+      "timestamp": 1783058760000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.47,
+      "volume": 2852800,
+      "amount": 3413809546.56,
+      "avgPrice": 1196.65
+    },
+    {
+      "time": "14:07",
+      "timestamp": 1783058820000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.53,
+      "volume": 2864300,
+      "amount": 3427535950.76,
+      "avgPrice": 1196.64
+    },
+    {
+      "time": "14:08",
+      "timestamp": 1783058880000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.35,
+      "volume": 2870600,
+      "amount": 3435056862.86,
+      "avgPrice": 1196.63
+    },
+    {
+      "time": "14:09",
+      "timestamp": 1783058940000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.99,
+      "volume": 2888900,
+      "amount": 3456890883.22,
+      "avgPrice": 1196.61
+    },
+    {
+      "time": "14:10",
+      "timestamp": 1783059000000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.76,
+      "volume": 2895700,
+      "amount": 3465008207.32,
+      "avgPrice": 1196.6
+    },
+    {
+      "time": "14:11",
+      "timestamp": 1783059060000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.3,
+      "volume": 2904800,
+      "amount": 3475868152.49,
+      "avgPrice": 1196.59
+    },
+    {
+      "time": "14:12",
+      "timestamp": 1783059120000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.23,
+      "volume": 2914200,
+      "amount": 3487085947.65,
+      "avgPrice": 1196.58
+    },
+    {
+      "time": "14:13",
+      "timestamp": 1783059180000,
+      "tz": "Asia/Shanghai",
+      "price": 1192.98,
+      "volume": 2931500,
+      "amount": 3507732747.95,
+      "avgPrice": 1196.57
+    },
+    {
+      "time": "14:14",
+      "timestamp": 1783059240000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.36,
+      "volume": 2948100,
+      "amount": 3527547233.21,
+      "avgPrice": 1196.55
+    },
+    {
+      "time": "14:15",
+      "timestamp": 1783059300000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.59,
+      "volume": 2959400,
+      "amount": 3541036389.38,
+      "avgPrice": 1196.54
+    },
+    {
+      "time": "14:16",
+      "timestamp": 1783059360000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.8,
+      "volume": 2962900,
+      "amount": 3545216559.42,
+      "avgPrice": 1196.54
+    },
+    {
+      "time": "14:17",
+      "timestamp": 1783059420000,
+      "tz": "Asia/Shanghai",
+      "price": 1193,
+      "volume": 2970100,
+      "amount": 3553807511.55,
+      "avgPrice": 1196.53
+    },
+    {
+      "time": "14:18",
+      "timestamp": 1783059480000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.05,
+      "volume": 2984500,
+      "amount": 3570999077.76,
+      "avgPrice": 1196.52
+    },
+    {
+      "time": "14:19",
+      "timestamp": 1783059540000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.99,
+      "volume": 2994700,
+      "amount": 3583183750.87,
+      "avgPrice": 1196.51
+    },
+    {
+      "time": "14:20",
+      "timestamp": 1783059600000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.41,
+      "volume": 3000300,
+      "amount": 3589873059.92,
+      "avgPrice": 1196.5
+    },
+    {
+      "time": "14:21",
+      "timestamp": 1783059660000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.5,
+      "volume": 3007500,
+      "amount": 3598472732.01,
+      "avgPrice": 1196.5
+    },
+    {
+      "time": "14:22",
+      "timestamp": 1783059720000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.98,
+      "volume": 3015700,
+      "amount": 3608270497.08,
+      "avgPrice": 1196.5
+    },
+    {
+      "time": "14:23",
+      "timestamp": 1783059780000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.9,
+      "volume": 3020600,
+      "amount": 3614125665.12,
+      "avgPrice": 1196.49
+    },
+    {
+      "time": "14:24",
+      "timestamp": 1783059840000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.01,
+      "volume": 3023800,
+      "amount": 3617948445.15,
+      "avgPrice": 1196.49
+    },
+    {
+      "time": "14:25",
+      "timestamp": 1783059900000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.2,
+      "volume": 3037700,
+      "amount": 3634535817.43,
+      "avgPrice": 1196.48
+    },
+    {
+      "time": "14:26",
+      "timestamp": 1783059960000,
+      "tz": "Asia/Shanghai",
+      "price": 1193,
+      "volume": 3046900,
+      "amount": 3645513051.19,
+      "avgPrice": 1196.47
+    },
+    {
+      "time": "14:27",
+      "timestamp": 1783060020000,
+      "tz": "Asia/Shanghai",
+      "price": 1193,
+      "volume": 3059300,
+      "amount": 3660310769.89,
+      "avgPrice": 1196.45
+    },
+    {
+      "time": "14:28",
+      "timestamp": 1783060080000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.96,
+      "volume": 3063000,
+      "amount": 3664728326.11,
+      "avgPrice": 1196.45
+    },
+    {
+      "time": "14:29",
+      "timestamp": 1783060140000,
+      "tz": "Asia/Shanghai",
+      "price": 1192.78,
+      "volume": 3070600,
+      "amount": 3673800652.99,
+      "avgPrice": 1196.44
+    },
+    {
+      "time": "14:30",
+      "timestamp": 1783060200000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.8,
+      "volume": 3077800,
+      "amount": 3682393064.86,
+      "avgPrice": 1196.44
+    },
+    {
+      "time": "14:31",
+      "timestamp": 1783060260000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.74,
+      "volume": 3090100,
+      "amount": 3697086644.73,
+      "avgPrice": 1196.43
+    },
+    {
+      "time": "14:32",
+      "timestamp": 1783060320000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.08,
+      "volume": 3110100,
+      "amount": 3720986500.56,
+      "avgPrice": 1196.42
+    },
+    {
+      "time": "14:33",
+      "timestamp": 1783060380000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.3,
+      "volume": 3119800,
+      "amount": 3732580439.5,
+      "avgPrice": 1196.42
+    },
+    {
+      "time": "14:34",
+      "timestamp": 1783060440000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.43,
+      "volume": 3128600,
+      "amount": 3743098352.44,
+      "avgPrice": 1196.41
+    },
+    {
+      "time": "14:35",
+      "timestamp": 1783060500000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.56,
+      "volume": 3139800,
+      "amount": 3756488572.38,
+      "avgPrice": 1196.41
+    },
+    {
+      "time": "14:36",
+      "timestamp": 1783060560000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.85,
+      "volume": 3150500,
+      "amount": 3769278231.31,
+      "avgPrice": 1196.41
+    },
+    {
+      "time": "14:37",
+      "timestamp": 1783060620000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.11,
+      "volume": 3159900,
+      "amount": 3780508799.23,
+      "avgPrice": 1196.4
+    },
+    {
+      "time": "14:38",
+      "timestamp": 1783060680000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.08,
+      "volume": 3172300,
+      "amount": 3795317239.07,
+      "avgPrice": 1196.39
+    },
+    {
+      "time": "14:39",
+      "timestamp": 1783060740000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.69,
+      "volume": 3183900,
+      "amount": 3809166613.91,
+      "avgPrice": 1196.38
+    },
+    {
+      "time": "14:40",
+      "timestamp": 1783060800000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.17,
+      "volume": 3193500,
+      "amount": 3820628379.78,
+      "avgPrice": 1196.38
+    },
+    {
+      "time": "14:41",
+      "timestamp": 1783060860000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.76,
+      "volume": 3199300,
+      "amount": 3827556106.71,
+      "avgPrice": 1196.37
+    },
+    {
+      "time": "14:42",
+      "timestamp": 1783060920000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.11,
+      "volume": 3206700,
+      "amount": 3836399839.66,
+      "avgPrice": 1196.37
+    },
+    {
+      "time": "14:43",
+      "timestamp": 1783060980000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.35,
+      "volume": 3217900,
+      "amount": 3849788142.6,
+      "avgPrice": 1196.37
+    },
+    {
+      "time": "14:44",
+      "timestamp": 1783061040000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.7,
+      "volume": 3228600,
+      "amount": 3862574334.52,
+      "avgPrice": 1196.36
+    },
+    {
+      "time": "14:45",
+      "timestamp": 1783061100000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.73,
+      "volume": 3237300,
+      "amount": 3872970247.45,
+      "avgPrice": 1196.36
+    },
+    {
+      "time": "14:46",
+      "timestamp": 1783061160000,
+      "tz": "Asia/Shanghai",
+      "price": 1195.32,
+      "volume": 3248900,
+      "amount": 3886830423.35,
+      "avgPrice": 1196.35
+    },
+    {
+      "time": "14:47",
+      "timestamp": 1783061220000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.27,
+      "volume": 3264700,
+      "amount": 3905723646.3,
+      "avgPrice": 1196.35
+    },
+    {
+      "time": "14:48",
+      "timestamp": 1783061280000,
+      "tz": "Asia/Shanghai",
+      "price": 1196.34,
+      "volume": 3276700,
+      "amount": 3920081408.31,
+      "avgPrice": 1196.35
+    },
+    {
+      "time": "14:49",
+      "timestamp": 1783061340000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.71,
+      "volume": 3287300,
+      "amount": 3932748449.23,
+      "avgPrice": 1196.35
+    },
+    {
+      "time": "14:50",
+      "timestamp": 1783061400000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.68,
+      "volume": 3297200,
+      "amount": 3944577513.15,
+      "avgPrice": 1196.34
+    },
+    {
+      "time": "14:51",
+      "timestamp": 1783061460000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.28,
+      "volume": 3306100,
+      "amount": 3955206735.05,
+      "avgPrice": 1196.34
+    },
+    {
+      "time": "14:52",
+      "timestamp": 1783061520000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.3,
+      "volume": 3314700,
+      "amount": 3965477226.95,
+      "avgPrice": 1196.33
+    },
+    {
+      "time": "14:53",
+      "timestamp": 1783061580000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.72,
+      "volume": 3337200,
+      "amount": 3992345389.69,
+      "avgPrice": 1196.32
+    },
+    {
+      "time": "14:54",
+      "timestamp": 1783061640000,
+      "tz": "Asia/Shanghai",
+      "price": 1193.42,
+      "volume": 3351400,
+      "amount": 4009293901.48,
+      "avgPrice": 1196.3
+    },
+    {
+      "time": "14:55",
+      "timestamp": 1783061700000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.26,
+      "volume": 3368200,
+      "amount": 4029345968.23,
+      "avgPrice": 1196.29
+    },
+    {
+      "time": "14:56",
+      "timestamp": 1783061760000,
+      "tz": "Asia/Shanghai",
+      "price": 1194,
+      "volume": 3382300,
+      "amount": 4046175264.47,
+      "avgPrice": 1196.28
+    },
+    {
+      "time": "14:57",
+      "timestamp": 1783061820000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.47,
+      "volume": 3399700,
+      "amount": 4066950448.28,
+      "avgPrice": 1196.27
+    },
+    {
+      "time": "14:58",
+      "timestamp": 1783061880000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.24,
+      "volume": 3399800,
+      "amount": 4067069872.28,
+      "avgPrice": 1196.27
+    },
+    {
+      "time": "14:59",
+      "timestamp": 1783061940000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.24,
+      "volume": 3399800,
+      "amount": 4067069872.28,
+      "avgPrice": 1196.27
+    },
+    {
+      "time": "15:00",
+      "timestamp": 1783062000000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:06",
+      "timestamp": 1783062360000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:07",
+      "timestamp": 1783062420000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:08",
+      "timestamp": 1783062480000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:09",
+      "timestamp": 1783062540000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:10",
+      "timestamp": 1783062600000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:11",
+      "timestamp": 1783062660000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:12",
+      "timestamp": 1783062720000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:13",
+      "timestamp": 1783062780000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:14",
+      "timestamp": 1783062840000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:15",
+      "timestamp": 1783062900000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:16",
+      "timestamp": 1783062960000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:17",
+      "timestamp": 1783063020000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:18",
+      "timestamp": 1783063080000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:19",
+      "timestamp": 1783063140000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:20",
+      "timestamp": 1783063200000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:21",
+      "timestamp": 1783063260000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:22",
+      "timestamp": 1783063320000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:23",
+      "timestamp": 1783063380000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:24",
+      "timestamp": 1783063440000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:25",
+      "timestamp": 1783063500000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:26",
+      "timestamp": 1783063560000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:27",
+      "timestamp": 1783063620000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:28",
+      "timestamp": 1783063680000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:29",
+      "timestamp": 1783063740000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    },
+    {
+      "time": "15:30",
+      "timestamp": 1783063800000,
+      "tz": "Asia/Shanghai",
+      "price": 1194.45,
+      "volume": 3426800,
+      "amount": 4099320074.39,
+      "avgPrice": 1196.25
+    }
+  ]
+}
